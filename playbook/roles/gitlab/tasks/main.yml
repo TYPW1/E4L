@@ -52,26 +52,26 @@
     state: present
   when: not gitlab_file.stat.exists
 
-- name: "Reset root password using gitlab-rails console"
-  command: >
-    gitlab-rails runner "
-    user = User.find_by(username: 'root');
-    if user
-      user.password = 'Pierr01999.';
-      user.password_confirmation = 'Pierr01999.';
-      user.save!;
-    end"
-  ignore_errors: yes
-  register: password_reset_output
+# - name: "Reset root password using gitlab-rails console"
+#   command: >
+#     gitlab-rails runner "
+#     user = User.find_by(username: 'root');
+#     if user
+#       user.password = 'Pierr01999.';
+#       user.password_confirmation = 'Pierr01999.';
+#       user.save!;
+#     end"
+#   ignore_errors: yes
+#   register: password_reset_output
 
-- name: "Show password reset output"
-  debug:
-    var: password_reset_output
+# - name: "Show password reset output"
+#   debug:
+#     var: password_reset_output
 
 
-- name: "Show password reset output"
-  debug:
-    var: password_reset_output
+# - name: "Show password reset output"
+#   debug:
+#     var: password_reset_output
 
 - name: Set GitLab external URL
   lineinfile:
@@ -93,11 +93,11 @@
     - gitlab-ctl restart unicorn
     - gitlab-ctl restart
 
-- name: "Wait for GitLab to be ready"
-  uri:
-    url: "http://192.168.56.10/gitlab"
-    status_code: 200
-  register: gitlab_response
-  until: gitlab_response is success
-  retries: 7
-  delay: 30
+# - name: "Wait for GitLab to be ready"
+#   uri:
+#     url: "http://192.168.56.10/gitlab"
+#     status_code: 200
+#   register: gitlab_response
+#   until: gitlab_response is success
+#   retries: 7
+#   delay: 30

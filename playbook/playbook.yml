@@ -4,6 +4,8 @@
   remote_user: vagrant
   become: yes
   become_method: sudo
+  vars_files:
+    - ./config/secrets.yml 
     
   
   vars:
@@ -13,6 +15,9 @@
 
   - include_role:
       name: gitlab
+
+  - include_role:
+      name: gitlab-runner  
 
   - include_role:
       name: docker
