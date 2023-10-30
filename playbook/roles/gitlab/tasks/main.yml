@@ -9,21 +9,17 @@
   apt:
     update_cache: yes
 
-
 - name: "Safe system upgrade via aptitude."
   apt: 
     upgrade: safe        
-
 
 - name: "Check if GitLab configuration file already exists."
   stat: path=/etc/gitlab/gitlab.rb
   register: gitlab_config_file
 
-
 - name: "Check if GitLab is already installed."
   stat: path=/usr/bin/gitlab-ctl
   register: gitlab_file
-
 
 - name: "Install GitLab dependencies."
   package: name={{ item }} state=present
@@ -34,31 +30,48 @@
     - openssl
     - tzdata
 
-    
 - name: "Download GitLab repository installation script."
   get_url:
     url: "{{ gitlab_repository_installation_script_url }}"
     dest: /tmp/gitlab_install_repository.sh
     validate_certs: "{{ gitlab_download_validate_certs }}"
   when: not gitlab_file.stat.exists
-  
 
 - name: "Install GitLab repository."
   command: bash /tmp/gitlab_install_repository.sh
   when: not gitlab_file.stat.exists
-  
 
 - name: "Define the Gitlab package name."
   set_fact:
     gitlab_package_name: "{{ gitlab_edition }}{{ gitlab_package_version_separator }}{{ gitlab_version }}"
   when: gitlab_version != ''
 
-
 - name: "Install GitLab"
   package:
     name: "{{ gitlab_package_name | default(gitlab_edition) }}"
     state: present
   when: not gitlab_file.stat.exists
+
+- name: "Reset root password using gitlab-rails console"
+  command: >
+    gitlab-rails runner "
+    user = User.find_by(username: 'root');
+    if user
+      user.password = 'Pierr01999.';
+      user.password_confirmation = 'Pierr01999.';
+      user.save!;
+    end"
+  ignore_errors: yes
+  register: password_reset_output
+
+- name: "Show password reset output"
+  debug:
+    var: password_reset_output
+
+
+- name: "Show password reset output"
+  debug:
+    var: password_reset_output
 
 - name: Set GitLab external URL
   lineinfile:
@@ -87,66 +100,4 @@
   register: gitlab_response
   until: gitlab_response is success
   retries: 7
-  delay: 30  
-
-- name: "Ensure root user has the desired password in GitLab"
-  command: >
-    gitlab-rails runner "
-    user = User.find_by(username: 'root');
-    if user
-      user.password = 'Pierr01999.';
-      user.password_confirmation = 'Pierr01999.';
-      user.save!;
-    end"
-  ignore_errors: yes
-
-- name: Restart GitLab
-  command: "{{ item }}"
-  with_items:
-    - gitlab-ctl reconfigure
-    - gitlab-ctl restart unicorn
-    - gitlab-ctl restart
-
-- name: "Wait for GitLab to be ready"
-  uri:
-    url: "http://192.168.56.10/gitlab"
-    status_code: 200
-  register: gitlab_response
-  until: gitlab_response is success
-  retries: 7
-  delay: 30  # Adjust the delay as needed
-
-- name: "Fetch GitLab login page to get CSRF token"
-  uri:
-    url: "http://192.168.56.10/gitlab/users/sign_in"
-    method: GET
-    return_content: yes
-  register: login_page
-  ignore_errors: yes
-
-- name: "Extract CSRF token"
-  set_fact:
-    csrf_token: "{{ login_page.content | regex_search('name=\"authenticity_token\" value=\"([^\"]+)\"', '\\1') }}"
-  when: login_page.status == 200
-
-- name: "Simulate login to GitLab with CSRF token"
-  uri:
-    url: "http://192.168.56.10/gitlab/users/sign_in"
-    method: POST
-    body_format: form-urlencoded
-    body: >
-      utf8=✓&
-      authenticity_token={{ csrf_token }}&
-      user[login]=root&
-      user[password]=Pierr01999.&
-      user[remember_me]=0
-    headers:
-      Content-Type: "application/x-www-form-urlencoded"
-    status_code: 302
-  register: login_response
-  ignore_errors: yes
-
-- name: "Check if login was successful"
-  debug:
-    msg: "Login successful."
-  when: login_response.status == 302
+  delay: 30
