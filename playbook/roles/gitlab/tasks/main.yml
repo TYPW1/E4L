@@ -87,7 +87,7 @@
   register: gitlab_response
   until: gitlab_response is success
   retries: 7
-  delay: 30  # Adjust the delay as needed
+  delay: 30  
 
 - name: "Ensure root user has the desired password in GitLab"
   command: >
