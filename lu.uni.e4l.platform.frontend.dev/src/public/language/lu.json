@@ -1,0 +1,276 @@
+{
+  "home": {
+    "home": "Startsäit",
+    "welcome": "Wëllkomm op Energy 4 life",
+    "intro": "Hei kënnt dir äre perséinlechen Energieverbrauch ausrechnen a mat anere Mënsche vun hei a vun der ganzer Welt vergläichen. Zousätzlech kritt dir hei Informatiounen iwwer Energie a mir bidde <1>Workshops</1> fir Schoulen un.",
+    "scores_calculated": "Schon {{ scores }} Energy-Scores ausgerechent",
+    "calculate": "Elo mäin Energy-Score ausrechnen",
+    "how_it_works": {
+      "title": "Wei funktionéiert dat?",
+      "avg_energy_use": "Mir hunn den duerchschnëttlechen Energieverbrauch fir alldeeglech Aktivitéite gesammelt",
+      "gave_every_activity_score": "Mir hunn all Aktivitéit ee Punktwäert ginn a mat engem Bild duergestallt",
+      "choose_picture": "Dir wielt dat Bild aus wat am beschte bei iech passt",
+      "add_pictures_up": "Mir rechnen d’Wäerter vun de Biller zesummen, dat ergëtt ären Energie-Score",
+      "compare": "Dir kënnt äre Score mam Rescht vun der Welt vergläichen!",
+      "link": "Link zu e puer Beschreiwung vu wéi den Energierechner berechent"
+    },
+    "why": {
+      "title": "Firwat ass et wichteg den Energie-Score auszerechnen?",
+      "limited": "Eis Energiequelle si limitéiert a ginn op en Enn",
+      "heating": "Déi meescht Energiequellen erhëtzen eis Ëmwelt",
+      "health": "Déi meescht Energiequelle schiedegen eis Gesondheet",
+      "expensive": "Energie ass deier",
+      "habits": "Den Energie-Score erlaabt et Iech ären Energieverbrauch z’iwwerdenken!"
+    },
+    "who_are_we": {
+      "title": "Wei si mir?",
+      "aim": "Mir schaffen op der Universitéit a wëllen d'Ëffentlech Sensibiliséierung iwwer Energieverbrauch an d'Ëmwelt erhéijen."
+    }
+  },
+  "mission": {
+    "mission": "Missioun",
+    "our_mission": "Eis Missioun",
+    "mission_1": "Mier liewen an enger Zäit vun deifgräifenden an dramatesche Verännerungen. Eisen Energiebesoin wiest immens mat der Weltpopulatioun, dat op Käschte vun eisem Planéit. Dëse Site stellt de Konsument an de Mëttelpunkt andeems en äre perséinlechen Energieverbrauch berechent.",
+    "mission_2": "Als Wësseschaftler a Fuerscher fille mir eis verflicht der Gesellschaft eppes zréckzeginn. Dat wat mir dagdeeglech erfuersche musse mir un d’Gesellschaft weider ginn. Outreach-Projekter sinn ee Choix an zesumme mat verschiedene Fuerschungsberäicher zu Lëtzebuerg, d.h. der Universitéit, dem FNR an der Emwëltagence, wëlle mir probéieren fir d’Léit hiert Bewosstsein iwwer Energie an erneierbar Energien ze schärfen.",
+    "mission_3": "Als Bierger wëlle mir un der aktueller Energiewend deel huelen, déi eis Gesellschaft verännere wäert.",
+    "for_educators": "Fir Enseignanten:",
+    "mission_4": "Dofir muss sech all Bierger sengem Energieverbrauch bewosst ginn. Mir stellen dofir dëst Website zur Verfügung déi eis hëllefe wäert eis verhalen haut an an der Zukunft ze iwwerdenken.",
+    "mission_5": "Mat dëser App kënnt dir mat Verännerungen experimentéieren, déi Dir ëmsetze kënnt, fir ze probéieren ären Energy-Score ze reduzéieren.",
+    "mission_6": "Enseignanten kënnen eisen Tool als conversation starter fir d'Thema Energieproduktioun a -verbrauch benotzen, fir d'Bewosstsinn fir d'Folgen vun eisem dagdeeglechen handelen ze schäerfen. Dir kënnt et als Simulator benotzen, fir dat Schüler d'Auswierkungen vu verschiddenen Liewensstiler entdecke kënnen. Dir kennt et awer och als Ausgangspunkt fir ee Projet iwwer erneierbar Energien an äre Klassen oder Schoulen huelen. Zum Beispill kéint ee simuléieren wei d'Welt géif ausgesinn wann jiddereen de selwechten Energieverbrauch hätt wéi d'Schüler an der Klass.",
+    "mission_7": "Mir bidden hallefdaags <0>Workshops</0> zu den Themen Energieverbrauch a -produktioun un, inklusiv praktesch Experimenter mat dëser App. <1>Kontaktéiert</1> eis wann dir weider Informatiounen braucht oder wann dir um Workshop deelhuele wëllt."
+  },
+  "team": {
+    "team": "Team",
+    "who_are_we": "Ween si mir?",
+    "renewable_energy_team": "Erneierbar Energien Team",
+    "software_engineering_team": "Software Engineering Team",
+    "sponsors": "Virdrun an aktuell Sponsoren & Unerkennung"
+  },
+  "sponsors": {
+    "sponsors": "Sponsoren"
+  },
+  "info": {
+    "info": "Info",
+    "information": "Informatiounen",
+    "know_more": {
+      "header": "Wann dir méi wësse wëllt iwwer Energie an",
+      "where_you_live": "wou dir wunnt",
+      "diet": "är Ernärung",
+      "pets": "är Hausdéieren",
+      "get_to_work": "wéi dir op d’Aarbecht kommt",
+      "where_you_work": "wou dir schafft",
+      "travels": "wou dir hinreest",
+      "things": "wat dir akaft",
+      "renewable": "op mir 100% erneierbar Energien erreeche kënnen?"
+    },
+    "ext_info": "Externe Informatiounen",
+    "sustainability": "Sustainability without the hot air",
+    "sustainability_is": " ass eng formidabel and liicht verständlech Aféierung an d’Thema Energieverbrauch a –produktioun, déi eis inspiréieren dëse Projet duerchzeféieren."
+  },
+  "contact": {
+    "contact_us": "Kontaktéiert eis",
+    "contact_form": "Kontaktformular",
+    "first_name": "Virnumm",
+    "last_name": "Familljennumm",
+    "email": "Emailadress",
+    "subject": "Sujet/Thema",
+    "message": "Nooriicht",
+    "consensus": "Ech sinn averstanen mat der ",
+    "privacy_policy": "Privatsphärpolitik",
+    "mandatory_field": "* Obligatorescht Feld",
+    "send": "Schécken",
+    "sending": "Schécken...",
+    "send_success": "De Message gouf erfollegräich geschéckt",
+    "send_fail": "Entschëllegt, mir konnten Äre Message net dem Energy4Life Team ofginn. Probéiert w.e.g. méi spéit nach eng Kéier."
+  },
+  "privacy": {
+    "privacy_notice": "Privatsphär Notiz",
+    "table_of_contents": {
+      "title": "INHALTSVERZEECHNES:",
+      "introduction": "INTRODUKTIOUN",
+      "1": "WEI SINN WE ?",
+      "2": "WAT ASS DEN Zweck vum Prozess?",
+      "3": "WAT ASS PERSOUNLIG DATA GINNEN EIS A FOURZE PROCESS?",
+      "4": "WÉI ECH EIS PERSOUNLIG DATA SAMLT?",
+      "5": "A wéieng juristescher Basis behandele mir Äre perséinlechen DATA?",
+      "6": "WIE SINN DÉI BENOTZEN VUN ÄR PERSONAL DATA?",
+      "7": "MIR SINN DIR PERSOUNLIG DATA AUSSERHALB VUN DER EUROPÄESCHER UNIOUN?",
+      "8": "WÉI LANG LANGE SINN EIS PERSOUNLIG DATA?",
+      "9": "WAT ASS ÄR Recht mat der Bezéiung vu Äre perséinlechen Donnéeën?",
+      "10": "WEI KËNT Dir E KLAGER VERGESCHEN?",
+      "11": "Uwendbar Recht - Juridictioun"
+    },
+    "introduction": "Geméiss den Artikelen 12, 13 an 14 vun der EU Regulatioun 2016/679 iwwer de Schutz vun natierleche Persoune wat d'Veraarbechtung vu perséinlechen Daten ugeet an iwwer de fräie Verkéier vun esou Donnéeën (nodréiglech den “GDPR”), ass dës Dateschutzerklärung ( duerno “Notice“) erkläert wéi d'Universitéit Lëtzebuerg perséinlech Donnéeën a Relatioun mat dëser perséinlecher Energiekalkulator Websäit sammelt, verschafft a schützt.",
+    "who_are_we": {
+      "content": "D'Universitéit Lëtzebuerg ass eng ëffentlech Héichschoul- a Fuerschungsariichtung, a Betrib ënner der Opsiicht vum Ministère fir Héichschoul.",
+      "address_headline": "D'Uni Lëtzebuerg huet hir offiziell Adress op: ",
+      "address_1": "MAISON DU SAVOIR",
+      "address_2": "2, avenue de l’Université",
+      "address_3": "L- 4365 ESCH-BELVAL",
+      "address_4": "Telefonsnummer: Tel .: ",
+      "address_5": "Internet Adress: ",
+      "address_6": "D'Uni huet en DPO ernannt: erreechbar während den Aarbechtsstonnen. Weider Informatioune ginn op ",
+      "address_7": " an eng E-Mail Adress ass verfügbar:"
+    },
+    "which_data_do_we_collect": {
+      "data_includes": "D'Personal Daten veraarbecht enthalen: ",
+      "data_includes_p1": "d'Energie déi Dir an Ären alldeeglechen Aktivitéite benotzt",
+      "data_includes_p2": "eng spezifesch Informatioun iwwer de Wee wéi Dir wunnt, nëtzlech fir den Energieverbrauch ze berechnen",
+      "concl": "Mir zéien Är Opmierksamkeet ze vermeiden Iwwerdroung vun sensiblen Informatioun wéi Daten déi Är rassistesch oder ethnesch Hierkonft weisen, politesch Meenungen, reliéis oder filosofesch Iwwerzeegungen, oder Gewerkschaft Memberschaft, Donnéeën iwwer Är Gesondheet"
+    },
+    "how_we_collect_data": "Mir sammelen d'Personal Daten direkt, sou wéi Dir kritt hutt wann Dir d'Froen op der Websäit beäntwert.",
+    "on_which_basis": {
+      "title": "Déi legal Basis fir d'Veraarbechtung vun Äre perséinlechen Daten ass festgeschriwwen am:",
+      "article_6": "Artikel 6 (a) GDPR:",
+      "p_1": "den Täter huet Zoustëmmung fir d'Veraarbechtung vu senge perséinlechen Daten fir een oder méi spezifesch Zwecker ze kréien."
+    },
+    "who_are_the_recipients": "Uni Lëtzebuerg.",
+    "transfer_data": "Är perséinlech Daten ginn an der Europäescher Unioun veraarbecht. ",
+    "store_data": "D'Personal Daten, déi vun Iech ugebuede ginn, ginn anonym gehale, wat heescht datt mir net wëssen wien d'Donnéeën ubitt. D'Donnéeë ginn nëmme fir den Zweck, deen am Deel beschriwwe gëtt, benotzt. Wann den Zweck vun der Websäit ännert, ginn d'Donnéeën net fir den neien Zweck benotzt.",
+    "your_rights": {
+      "title": "Geméiss dem GDPR profitéiert Dir notamment vun de folgende Rechter: Recht fir informéiert ze ginn, Recht op Zougank zu Äre perséinlechen Donnéeën, Recht op Rectificatioun, Recht op Läschen, Recht fir den Ëmfang vun der Veraarbechtung ze beschränken, Recht op Objet, Recht op Daten Portabilitéit, Recht eng Plainte ofzeginn. D'Uni bitt weider Informatioun op hirer Websäit Säit: ",
+      "in_practice": "An der Praxis kënnt Dir Är Rechter ausüben andeems Dir eis DPO kontaktéiert:",
+      "send": "Andeems Dir per Demande eng Demande schéckt:",
+      "address_1": "Université du Luxembourg",
+      "address_2": "À l’attention de: DPO – Exercise of Data Subject rights",
+      "address_3": "Maison du Savoir",
+      "address_4": "2, Avenue de l’Université",
+      "address_5": "L-4365 ESCH BELVAL",
+      "or": "Oder",
+      "send_email": "Andeems Dir eng Demande per E-Mail un d'DPO schéckt, um ",
+      "send_email_content": "All Ufro gëtt vun der Uni Lëtzebuerg ouni onduerchschécke Retard veraarbecht, a wa méiglech no engem (1) Mount no hirer Empfang, op d'mannst fir Iech iwwer de Status vun Ärer Demande z'informéieren. Dës Period kann verlängert ginn fir zwee (2) zousätzlech Méint fir komplexe Fäll oder wéinst engem héije Volumen vun Ufroen."
+    },
+    "complaint": {
+      "p1": "Wann Dir der Meenung sidd datt d'Veraarbechtung vu perséinlechen Donnéeën, déi Iech betreffen, den GDPR verletzt, hutt Dir d'Recht - ouni benodeelech aner administrativ oder geriichtlech Recours - eng Klo bei enger Kontrollinstanz ze maachen, besonnesch am Memberstaat vun Ärem Gewunnecht Residenz, Aarbechtsplaz oder Plaz vun der angeblech Verletzung.",
+      "p2": "Zu Lëtzebuerg ass déi kompetent Autoritéit d'National Kommissioun fir Dateschutz (CNPD).",
+      "contact": "Kontakt vum CNPD:",
+      "a1": "Commission Nationale pour la Protection des Données",
+      "a2": "1, avenue du Rock’n’Roll",
+      "a3": "Service des réclamations",
+      "a4": "L-4361 Esch-sur-Alzette",
+      "tel": "Tel. : ",
+      "fax": "Fax : ",
+      "also_contact": "Dir kënnt och hire Kontaktformulaire benotzen, op: "
+    },
+    "appl_law_p1": "Dës Notiz gëtt regéiert a interpretéiert am Aklang mat dem Lëtzebuerger Gesetz. ",
+    "appl_law_p2": "All Sträit betreffend Existenz, Interpretatioun oder Ausféierung vun dëser Notiz, déi net am Amusement kann agestallt ginn, fällt ënner der Juridictioun vun de Geriichter vun der Stad Lëtzebuerg, ouni de Rechter vun den Datesubjeten ze verleeën, d'Saache viru Geriicht ze bréngen wou hien oder hatt huet hir Wunnsëtz souwéi e Recht op eng Klo bei der Opsiichtsbehörde ofzeginn."
+  },
+  "profile": {
+    "login": "Loggt Iech un",
+    "signup": "Sech umellen",
+    "change_email": "E-Mail änneren",
+    "change_password": "Passwuert änneren",
+    "profile_update": "Profil update",
+    "profile_updated": "De Profil gouf aktualiséiert!",
+    "logout": "Ausloggen",
+    "preferred_lang": "Preferenzéiert Sprooch",
+    "age": "Alter",
+    "residence_country": "Land an deem dir residéiert",
+    "nationality": "Nationalitéit",
+    "people_count": "Zuel vun de Leit déi d'Liewensplaz deelen",
+    "less_energy": "Mengt Dir datt Dir manner Energie benotzt wéi d'Moyenne Persoun?",
+    "update": "Update",
+    "persons": {
+      "one": "1 persoun",
+      "two": "2 persounen",
+      "three": "3 persounen",
+      "four": "4 persounen",
+      "five_plus": "méi wéi 4 Persounen"
+    },
+    "country": {
+      "luxembourg": "Lëtzebuerg",
+      "belgium": "Belsch",
+      "france": "Frankräich",
+      "germany": "Däitschland",
+      "other": "Aner"
+    },
+    "nationalities": {
+      "luxembourg": "Lëtzebuergesch",
+      "belgium": "Belsch",
+      "france": "Franséisch",
+      "germany": "Däitsch",
+      "other": "Aner"
+    },
+    "select": "Wielt"
+  },
+  "login": {
+    "login_signup": "Log-in/sech umellen",
+    "email": "E-mail",
+    "password": "Passwuert",
+    "email_required": "Email ass erfuerderlech",
+    "password_required": "Passwuert ass verlaangt"
+  },
+  "signup": {
+    "password_verification": "Passwuert Verifikatioun",
+    "password_verification_required": "Passwuert-Kontrolléierung ass erfuerderlech",
+    "password_verification_not_match": "D'Passwuert-Verifikatioun sollt d'selwecht sinn wéi d'Passwuert"
+  },
+  "result": {
+    "your_result": "Däi perséinlechen Energie-Score",
+    "kwh_day": "{{ result }} kWh pro Dag",
+    "what_means": "Wat heescht dat?",
+    "restart": "Neistart de Questionnaire",
+    "visual_comparision": "D’Energie-Scoren",
+    "luxembourg_avg": "Lëtzebuerger Duerchschnëtt",
+    "europe_avg": "Europäeschen Duerchschnëtt",
+    "world_avg": "Weltwäiten Duerchschnëtt",
+    "average_scores": "Duerchschnëttleche Score <br />vun den E4L Useren",
+    "logo_title": "Den Energieverbrauch: E Vergläich",
+    "comparison_chart_title": "De Vergläich vum Energieverbrauch als Grafik",
+    "pie_chart_title": "Resultater vun anere Useren",
+    "distribution_chart_title": "Verdeelung vum deeglechen Energieverbrauch vun allen E4L Useren"
+  },
+  "breakdown": {
+    "title": "Resultat Decompte",
+    "question": "Fro",
+    "answers": "Äntwerten",
+    "score": "Partitur"
+  },
+  "questionnaire": {
+    "finish": "Fäerdeg",
+    "previous": "Virdrun",
+    "next": "Weider",
+    "info": "Info",
+    "your_score": "Äre Score {{score}} kWh pro Dag",
+    "world_score": "Weltduerchschnëttscore: 60 kWh pro Dag"
+  },
+  "admin": {
+    "not_admin": "Dës Säit ass nëmme fir Administrateuren zougänglech.",
+    "back_home": "Home page"
+  },
+  "seminar": {
+    "home": "Workshop",
+    "intro": "Am Kader vum Energy4Life-Projet bidde mir och e Workshop fir jonker Léit un, fir sie mat de Begrëffer Stroum an Energie ze familiariséieren, hiren eegenen Energieverbrauch ze erklären an hinnen dobäi ze hëllefen, ze verstoen ob et méiglech ass säi Verbrauch ob 100 % erneierbar Energien ëmzestellen. <1>Kontaktéiert</1> eis wann dir weider Informatiounen braucht oder wann dir um Workshop deelhuele wëllt.",
+    "seminar_field": "Gitt de Seminarcode vir",
+    "button": "Ech hunn ee Workshop-Code",
+    "objectives": {
+      "title": "Ziler",
+      "objective_1": "D’Schüler mam Konzept vu Kraaft an Energie vertraut maachen.",
+      "objective_2": "Berechnung vum deeglechen Energieverbrauch vun de Schüler",
+      "objective_3": "Fir ze berechnen ob Lëtzebuerg genuch Ressourcen huet fir säin Energieverbrauch ze decken, muss et erneierbar sinn"
+    },
+    "learning_outcomes": {
+      "title": "Lernerfolge",
+      "learning_outcome_1": "De Schüler wäert fäeg sinn d'Frënn an d'Famill den Ënnerscheed tëscht Elektrizitéit an Energie ze verstoen an z'erklären, besonnesch a Bezuch op hiren eegene Energieverbrauch an der Produktioun vun erneierbaren Energien, andeems en am Workshop deelhëlt.",
+      "learning_outcome_2": "De Schüler kann verstoen wéi verschidde Energieverbrauchsquellen verglach gi fir ze bestëmmen wéi eng relativ wichteg sinn andeems hie léiert wéi verschidden Energieeenheeten sech an eng eenheetlech Eenheet iwwersetzen. Dëst gëtt erreecht andeems d'Beispiller ënnersicht ginn an en un engem Quiz deelhëlt.",
+      "learning_outcome_3": "De Student wäert de Prinzip verstoen datt erneierbar Ressourcen limitéiert sinn, well se vun der Landuewerfläch, der Energiekonversiounseffizienz vun eisen Apparater an den klimateschen Zoustänn ofhängen. Dir kënnt d'Relatioun tëschent dem deeglechen Energieverbrauch an der Bevëlkerung gesinn, wéi och Energiequantitéit déi mir aus erneierbaren Quelle produzéiere kënnen. Dëst gëtt erreecht andeems e Gläichgewiichtprobleem am Atelier geléist gëtt mat den Daten, déi vun de Studente generéiert ginn."
+    },
+    "format": {
+      "title": "Format",
+      "format_1": "De Seminar hëlt d'Form vu praktesche wëssenschaftlechen Experimenter déi un enger Selbstevaluatiounsëmfro deelhuelen, vun denen d’Resultater fir de ganze Grupp zesummengefaasst ginn, souwéi d'Probleemléisung a klenge Gruppen."
+    },
+    "target_audience": {
+      "title": "Zilgrupp",
+      "target_audience_1": "D'Zilgrupp si Studenten tëscht 14 an 18 Joer"
+    },
+    "results": {
+      "user": {
+        "errorClosed": "Das Seminar ist geschlossen. Diese Antworten werden nicht berücksichtigt.",
+        "errorTodo": "De Seminar ass nach net op. Diese Antworten werden nicht berücksichtigt.",
+        "errorCancelled": "The seminar has been cancelled. Diese Antworten werden nicht berücksichtigt."
+      }
+    }
+  },
+  "yes": "jo",
+  "no": "Nee"
+}

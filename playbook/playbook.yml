@@ -1,0 +1,33 @@
+# vim: ts=2
+---
+- hosts: all
+  remote_user: vagrant
+  become: yes
+  become_method: sudo
+    
+  
+  vars:
+    vHome: /home/vagrant
+      
+  tasks:
+
+  - include_role:
+      name: gitlab
+
+  - include_role:
+      name: docker
+  
+  - include_role:
+      name: nmap
+  
+  - include_role:
+      name: nodejs_setup
+
+  - include_role:
+      name: mysql_setup
+
+  - include_role:
+      name: java_setup
+
+  - include_role:
+      name: gradle_setup

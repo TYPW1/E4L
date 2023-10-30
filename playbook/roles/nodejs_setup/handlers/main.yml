@@ -1,0 +1,4 @@
+---
+- name: Reload profile
+  command: source /etc/profile.d/nodejs.sh
+  listen: "reload nodejs profile"

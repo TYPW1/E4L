@@ -1,0 +1,13 @@
+Hallo {0} {1},
+
+Vielen Dank für Ihre Kontaktaufnahme! Diese automatische Antwort soll Sie nur wissen lassen ...
+
+Wir haben Ihre E-Mail erhalten und werden uns so schnell wie möglich mit einer Antwort bei Ihnen melden. Wenn du
+Wenn Sie allgemeine Fragen zum Produkt haben, besuchen Sie bitte die Homepage für exemplarische Vorgehensweisen. Wenn Sie haben
+Alle zusätzlichen Informationen, von denen Sie glauben, dass sie uns helfen, Ihnen zu helfen, fühlen Sie sich bitte
+kostenlos auf diese E-Mail zu antworten.
+
+Wir freuen uns darauf, bald zu chatten!
+
+Prost,
+Energy4Life Mannschaft

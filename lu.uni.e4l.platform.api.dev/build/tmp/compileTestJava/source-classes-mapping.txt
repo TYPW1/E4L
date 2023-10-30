@@ -1,0 +1,6 @@
+lu/uni/e4l/platform/service/ExpressionEvaluatorTest.java
+ lu.uni.e4l.platform.service.ExpressionEvaluatorTest
+lu/uni/e4l/platform/service/CalculatorServiceTest.java
+ lu.uni.e4l.platform.service.CalculatorServiceTest
+lu/uni/e4l/platform/ContextLoadsTest.java
+ lu.uni.e4l.platform.ContextLoadsTest

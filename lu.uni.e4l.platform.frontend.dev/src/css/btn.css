@@ -1,0 +1,25 @@
+.btn-bmt {
+    color:#FFFFFF;
+    background-color:rgb(0,151,170);
+    border-color:rgb(94,90,91);
+}
+
+.btn-bmt:hover {
+    color:#FFFFFF;
+    background-color:rgb(94,90,91);
+    border-color:rgb(94,90,91);
+}
+
+.btn-bmt-link {
+    color:rgb(0,151,170);
+    background-color:#FFFFFF;
+    border-width:0;
+}
+
+.btn-bmt-link:hover {
+    color:rgb(94,90,91);
+    background-color:#FFFFFF;
+    border-width:0;
+}
+
+

@@ -1,0 +1,272 @@
+- name: where_do_you_live
+  detailsFile: file/where_do_you_live.pdf
+  minAnswersNumber: 1
+  maxAnswersNumber: 1
+  possibleAnswers:
+  - name: in_a_flat
+    image: img-svg/flat.svg
+    formula: 4 + 12
+  - name: in_a_semidetached_house
+    image: img-svg/duplex.svg
+    formula: 6 + 42
+  - name: in_a_house
+    image: img-svg/house.svg
+    formula: 7 + 57
+
+- name: what_is_your_diet
+  detailsFile: file/food.pdf
+  minAnswersNumber: 1
+  maxAnswersNumber: 1
+  possibleAnswers:
+  - name: im_vegan
+    image: img-svg/vegan.svg
+    formula: 23.4
+  - name: im_vegetarian
+    image: img-svg/vegetarian.svg
+    formula: 23
+  - name: im_a_pescatarian
+    image: img-svg/pescatarian.svg
+    formula: 28.7
+  - name: im_a_omnivorous
+    image: img-svg/omnivorous.svg
+    formula: 31
+
+- name: do_you_have_pets
+  detailsFile: file/do_you_have_pets.pdf
+  minAnswersNumber: 0
+  maxAnswersNumber: 3
+  possibleAnswers:
+  - name: cat
+    image: img-svg/cat.svg
+    formula: 2 * n
+    variables:
+    - name: n
+      label: number_of_cats
+      scale:
+        type: lu.uni.e4l.platform.model.scale.IntervalScale
+        minValue: 0
+        minValueInclusive: true
+        maxValue: 10
+        maxValueInclusive: true
+        precision: 1
+  - name: dog
+    image: img-svg/dog.svg
+    formula: 9 * n
+    variables:
+    - name: n
+      label: number_of_dogs
+      scale:
+        type: lu.uni.e4l.platform.model.scale.IntervalScale
+        minValue: 0
+        minValueInclusive: true
+        maxValue: 10
+        maxValueInclusive: true
+        precision: 1
+  - name: horse
+    image: img-svg/horse.svg
+    formula: 17 * n
+    variables:
+    - name: n
+      label: number_of_horses
+      scale:
+        type: lu.uni.e4l.platform.model.scale.IntervalScale
+        minValue: 0
+        minValueInclusive: true
+        maxValue: 10
+        maxValueInclusive: true
+        precision: 1
+
+- name: how_do_you_get_to_work
+  detailsFile: file/how_do_you_get_to_work.pdf
+  minAnswersNumber: 0
+  maxAnswersNumber: 4
+  possibleAnswers:
+  - name: by_car
+    image: img-svg/car.svg
+    formula: dist / n
+    variables:
+    - name: n
+      label: number_of_people_in_a_car
+      scale:
+        type: lu.uni.e4l.platform.model.scale.DiscreteScale
+        allowedOptions:
+        - name: 1_person
+          value: 1
+        - name: 2_people
+          value: 2
+        - name: 3_people
+          value: 3
+        - name: 4_people
+          value: 4
+        - name: 5_people
+          value: 5
+    - name: dist
+      label: distance_work_km
+      scale:
+        type: lu.uni.e4l.platform.model.scale.IntervalScale
+        minValue: 0
+        minValueInclusive: true
+        maxValue: 200
+        maxValueInclusive: true
+        precision: 1
+  - name: by_bus
+    image: img-svg/bus.svg
+    formula: 0.06 * dist
+    variables:
+      - name: dist
+        label: distance_work_km
+        scale:
+          type: lu.uni.e4l.platform.model.scale.IntervalScale
+          minValue: 0
+          minValueInclusive: true
+          maxValue: 200
+          maxValueInclusive: true
+          precision: 1
+  - name: by_train
+    image: img-svg/train.svg
+    formula: 0.06 * dist
+    variables:
+      - name: dist
+        label: distance_work_km
+        scale:
+          type: lu.uni.e4l.platform.model.scale.IntervalScale
+          minValue: 0
+          minValueInclusive: true
+          maxValue: 200
+          maxValueInclusive: true
+          precision: 1
+  - name: by_bike_or_walking
+    image: img-svg/cyclist.svg
+    formula: 0
+    variables:
+      - name: dist
+        label: distance_work_km
+        scale:
+          type: lu.uni.e4l.platform.model.scale.IntervalScale
+          minValue: 0
+          minValueInclusive: true
+          maxValue: 50
+          maxValueInclusive: true
+          precision: 1
+
+- name: electric_and_heating_energy_consumption_where_do_you_work
+  detailsFile: file/where_do_you_work.pdf
+  minAnswersNumber: 0
+  maxAnswersNumber: 1
+  possibleAnswers:
+  - name: at_school
+    image: img-svg/school.svg
+    formula: 3
+  - name: in_the_science_lab
+    image: img-svg/science-lab.svg
+    formula: 50
+  - name: work_university
+    image: img/university.png
+    formula: 24
+  - name: work_office
+    image: img-svg/office-work.svg
+    formula: 14
+  - name: work_horesca
+    image: img/horesca.png
+    formula: 56
+
+- name: holiday_travel_during_last_year
+  detailsFile: file/holiday_travel_during_last_year.pdf
+  minAnswersNumber: 0
+  maxAnswersNumber: 7
+  possibleAnswers:
+  - name: by_car_eu
+    image: img-svg/car_eu.svg
+    formula: 4.3 / n * times
+    variables:
+    - name: n
+      label: number_of_people_in_a_car
+      scale:
+        type: lu.uni.e4l.platform.model.scale.DiscreteScale
+        allowedOptions:
+        - name: 1_person
+          value: 1
+        - name: 2_people
+          value: 2
+        - name: 3_people
+          value: 3
+        - name: 4_people
+          value: 4
+        - name: 5_people
+          value: 5
+    - name: times
+      label: how_often_times
+      scale:
+        type: lu.uni.e4l.platform.model.scale.IntervalScale
+        minValue: 0
+        minValueInclusive: true
+        maxValue: 50
+        maxValueInclusive: true
+        precision: 1
+  - name: by_bus_eu
+    image: img-svg/bus_eu.svg
+    formula: 0.7 * times
+    variables:
+    - name: times
+      label: how_often_times
+      scale:
+        type: lu.uni.e4l.platform.model.scale.IntervalScale
+        minValue: 0
+        minValueInclusive: true
+        maxValue: 50
+        maxValueInclusive: true
+        precision: 1
+  - name: by_train_eu
+    image: img-svg/train_eu.svg
+    formula: 0.3 * times
+    variables:
+    - name: times
+      label: how_often_times
+      scale:
+        type: lu.uni.e4l.platform.model.scale.IntervalScale
+        minValue: 0
+        minValueInclusive: true
+        maxValue: 50
+        maxValueInclusive: true
+        precision: 1
+  - name: by_plane_eu
+    image: img-svg/plane_eu.svg
+    formula: 2 * times
+    variables:
+    - name: times
+      label: how_often_times
+      scale:
+        type: lu.uni.e4l.platform.model.scale.IntervalScale
+        minValue: 0
+        minValueInclusive: true
+        maxValue: 50
+        maxValueInclusive: true
+        precision: 1
+  - name: by_plane_noneu
+    image: img-svg/plane_world.svg
+    formula: 18.6 * times
+    variables:
+      - name: times
+        label: how_often_times
+        scale:
+          type: lu.uni.e4l.platform.model.scale.IntervalScale
+          minValue: 0
+          minValueInclusive: true
+          maxValue: 50
+          maxValueInclusive: true
+          precision: 1
+
+- name: other_energy_consumptions
+  detailsFile: file/other_energy_consumptions.pdf
+  minAnswersNumber: 1
+  maxAnswersNumber: 1
+  possibleAnswers:
+    - name:  "low"
+      image: img-svg/low.svg
+      formula: 15
+    - name:  "moderate"
+      image: img-svg/moderate.svg
+      formula: 30
+    - name:  "high"
+      image: img-svg/high.svg
+      formula: 50

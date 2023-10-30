@@ -1,0 +1,385 @@
+$header-height: 7em;
+$e4l-color-blue: rgb(0,151,170);
+$e4l-color-red: rgb(229,0,67);
+$e4l-color-grey:rgb(94,90,91);
+$bics-color-grey-25:rgba(94,90,91,.25);
+$bics-color-white:rgb(255,255,255);
+$bics-color-black:rgb(0,0,0);
+// $light-color: #e6e6e6;
+$light-color: #e2e8f0;
+$white-color: #fff;
+$secondary-color: #6c757d;
+$secondary-dark-color:#2d3033;
+$secondary-light-color: #9c9b9b;
+$info-color: #17a2b8;
+// $primary-color: #007bff;
+$primary-color: #adcced;
+
+  %answerBoxFormat {
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: $white-color;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .selected {
+   @extend %answerBoxFormat;
+   box-shadow: 0px 0px 25px $secondary-dark-color;
+  cursor: pointer;
+  }
+  .selectable {
+    @extend %answerBoxFormat;
+  cursor: pointer;
+   &:hover{
+    border-color: $e4l-color-grey;
+    box-shadow: 0px 0px 10px $secondary-light-color;
+   }
+  }
+  .binarySelectable {
+    @extend %answerBoxFormat;
+    cursor: pointer;
+    &:hover{
+      border-color: $e4l-color-grey;
+      box-shadow: 0px 0px 10px $secondary-light-color;
+   }
+  }
+  .notSelectable {
+    @extend %answerBoxFormat;
+  }
+  .multiplier {
+    @extend %answerBoxFormat;
+  }
+
+  .padding {
+    padding: 10px;
+  }
+  .noPadding {
+    padding: 0px !important;
+  }
+  .noMargin {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .imageAnswersDiv {
+  text-align: center;
+
+
+  }
+
+  .inputNumberField {
+    width:20%;
+    height:10px;
+    text-align: center!important;
+    // padding-bottom: 10px;
+
+  }
+
+  .imageAnswers {
+
+    max-width: 80%;
+    height: 80%;
+    float: none;
+    position:relative;
+    margin: 0 auto;
+
+  }
+  .buttonBorder {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height:100%;
+    width:100%;
+  }
+
+  .bg-light {
+    background-color: $light-color!important
+  }
+  .bg-white {
+    background-color: $white-color!important
+  }
+
+  .text-light {
+    color: $light-color!important
+  }
+  input {
+    //text-align: center!important;
+  }
+
+  .progress {
+    position: relative;
+  }
+
+  .progress span {
+      position: absolute;
+      display: block;
+      width: 100%;
+      color: black;
+  }
+  .card {
+    border: 0px!important;
+  }
+  .card-img-top {
+    border: 0px!important;
+  }
+  .logo-scores {
+    height: 20vh;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .logo-score {
+
+    width: 100%;
+    display: block;
+    margin: auto;
+    bottom: 0;
+  }
+
+  .selectE4l{
+    width: 100%!important;
+  }
+
+.containerE4l {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.dropdownProfileIcon {
+  left:auto;
+  right:0;
+  text-align: left;
+  font-size:.8em;
+  min-width: 13em;
+  //margin-right:-10px;
+}
+
+.navBarText {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  display: block;
+  font-size: 1em;
+  background-color: transparent;
+}
+.resultInfo {
+  background-color: $white-color;
+  width: 100%
+}
+
+ul.compact {
+  padding-inline-start: 20px;
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.blancBackground {
+  background: #fff
+}
+
+.uni-copywrite, footer.content-info {
+  margin-top: 50px
+}
+
+.uni-copywrite {
+  border-top: 1px solid #444;
+  padding-top: 15px
+}
+
+ul.social-links li {
+  display: inline-block;
+  list-style-type: none
+}
+
+ul.social-links li a {
+  margin-right: 10px
+}
+
+footer ul.social-links {
+  margin-bottom: 0;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  float: right
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer .social {
+  display: inline-block;
+  float: right;
+}
+.footer .social a {
+  margin-left: 14px;
+  font-size: 1.2em;
+}
+
+.uni-corp-text {
+  color: #fff;
+  padding: 25px
+}
+
+.uni-corp-text p {
+  margin-bottom: 0
+}
+
+.uni-sub-footer {
+  background: #fff;
+  width: 140px;
+  height: 95px;
+  padding: 25px;
+  border-radius: 25px 25px 0 0;
+  border-bottom: none;
+  position: absolute;
+  bottom: 0;
+  right: 50px
+}
+
+.uni-sub-footer img {
+  width: 75px;
+  margin: auto;
+  display: block
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.editButton {
+  margin: -10pt
+
+}
+
+.table-fixed{
+  width: 100%;
+  background-color: #f3f3f3;
+  tbody{
+    height:50px;
+    overflow-y:auto;
+    width: 100%;
+    }
+  thead,tbody,tr,td,th{
+    display:block;
+  }
+  tbody{
+    td{
+      float:left;
+    }
+  }
+  .popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  .popup_inner {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    background: white;
+  }
+}
+.visuallyHidden {
+  border: 0;
+  clip: 'rect(0 0 0 0)';
+  height: 1;
+  margin: -1;
+  overflow: 'hidden';
+  padding: 0;
+  position: 'absolute';
+  top: 20;
+  width: 1;
+}
+
+%answerBoxFormat {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: $white-color;
+  margin: 5px;
+}
+.rowSelected {
+ @extend %answerBoxFormat;
+ box-shadow: 7px 3px 10px $secondary-dark-color;
+cursor: pointer;
+}
+.rowSelectable {
+  @extend %answerBoxFormat;
+cursor: pointer;
+ &:hover{
+  border-color: $e4l-color-grey;
+  box-shadow: 7px 3px 10px $secondary-light-color;
+ }
+}
+.rowBinarySelectable {
+  @extend %answerBoxFormat;
+  cursor: pointer;
+  &:hover{
+    border-color: $e4l-color-grey;
+    box-shadow: 0px 0px 10px $secondary-light-color;
+ }
+}
+.vertical-horizontal-center {
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  top: 25%;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-container img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.overlaps .MuiSlider-markLabel[data-index="0"] {
+  margin-top: 15px;
+}

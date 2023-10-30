@@ -1,0 +1,122 @@
+lu/uni/e4l/platform/model/dto/ContactUs.java
+ lu.uni.e4l.platform.model.dto.ContactUs
+lu/uni/e4l/platform/controller/UserController.java
+ lu.uni.e4l.platform.controller.UserController
+lu/uni/e4l/platform/model/Session.java
+ lu.uni.e4l.platform.model.Session
+lu/uni/e4l/platform/controller/QuestionnaireController.java
+ lu.uni.e4l.platform.controller.QuestionnaireController
+lu/uni/e4l/platform/model/SeminarStatus.java
+ lu.uni.e4l.platform.model.SeminarStatus
+lu/uni/e4l/platform/repository/AnswerRepository.java
+ lu.uni.e4l.platform.repository.AnswerRepository
+lu/uni/e4l/platform/repository/QuestionnaireRepository.java
+ lu.uni.e4l.platform.repository.QuestionnaireRepository
+lu/uni/e4l/platform/repository/SessionRepository.java
+ lu.uni.e4l.platform.repository.SessionRepository
+lu/uni/e4l/platform/controller/ContactUsController.java
+ lu.uni.e4l.platform.controller.ContactUsController
+lu/uni/e4l/platform/i18n/configuration/CustomLocaleResolver.java
+ lu.uni.e4l.platform.i18n.configuration.CustomLocaleResolver
+lu/uni/e4l/platform/repository/UserRepository.java
+ lu.uni.e4l.platform.repository.UserRepository
+lu/uni/e4l/platform/configuration/SwaggerConfiguration.java
+ lu.uni.e4l.platform.configuration.SwaggerConfiguration
+lu/uni/e4l/platform/repository/PossibleAnswerRepository.java
+ lu.uni.e4l.platform.repository.PossibleAnswerRepository
+lu/uni/e4l/platform/model/Answer.java
+ lu.uni.e4l.platform.model.Answer
+lu/uni/e4l/platform/model/dto/ResultBreakdown.java
+ lu.uni.e4l.platform.model.dto.ResultBreakdown
+ lu.uni.e4l.platform.model.dto.ResultBreakdown$QuestionEntry
+ lu.uni.e4l.platform.model.dto.ResultBreakdown$QuestionEntry$AnswerEntry
+lu/uni/e4l/platform/controller/CalculatorController.java
+ lu.uni.e4l.platform.controller.CalculatorController
+lu/uni/e4l/platform/service/UserManagementService.java
+ lu.uni.e4l.platform.service.UserManagementService
+lu/uni/e4l/platform/model/Question.java
+ lu.uni.e4l.platform.model.Question
+lu/uni/e4l/platform/model/scale/Scale.java
+ lu.uni.e4l.platform.model.scale.Scale
+lu/uni/e4l/platform/controller/SeminarController.java
+ lu.uni.e4l.platform.controller.SeminarController
+lu/uni/e4l/platform/exception/ForbiddenException.java
+ lu.uni.e4l.platform.exception.ForbiddenException
+lu/uni/e4l/platform/model/PossibleAnswer.java
+ lu.uni.e4l.platform.model.PossibleAnswer
+lu/uni/e4l/platform/model/scale/AllowedOption.java
+ lu.uni.e4l.platform.model.scale.AllowedOption
+lu/uni/e4l/platform/service/SessionService.java
+ lu.uni.e4l.platform.service.SessionService
+ lu.uni.e4l.platform.service.SessionService$InvalidQuestionnaireException
+lu/uni/e4l/platform/service/CalculatorService.java
+ lu.uni.e4l.platform.service.CalculatorService
+lu/uni/e4l/platform/exception/BadRequestException.java
+ lu.uni.e4l.platform.exception.BadRequestException
+lu/uni/e4l/platform/model/UserRole.java
+ lu.uni.e4l.platform.model.UserRole
+lu/uni/e4l/platform/service/SeminarService.java
+ lu.uni.e4l.platform.service.SeminarService
+ lu.uni.e4l.platform.service.SeminarService$InvalidSeminarException
+lu/uni/e4l/platform/i18n/service/Localizer.java
+ lu.uni.e4l.platform.i18n.service.Localizer
+ lu.uni.e4l.platform.i18n.service.Localizer$GetterSetterContainer
+lu/uni/e4l/platform/exception/NotFoundException.java
+ lu.uni.e4l.platform.exception.NotFoundException
+lu/uni/e4l/platform/security/service/JWTService.java
+ lu.uni.e4l.platform.security.service.JWTService
+lu/uni/e4l/platform/model/Seminar.java
+ lu.uni.e4l.platform.model.Seminar
+lu/uni/e4l/platform/security/JWTAuthorizationFilter.java
+ lu.uni.e4l.platform.security.JWTAuthorizationFilter
+lu/uni/e4l/platform/security/service/UserDetailsServiceImpl.java
+ lu.uni.e4l.platform.security.service.UserDetailsServiceImpl
+lu/uni/e4l/platform/security/JWTAuthenticationFilter.java
+ lu.uni.e4l.platform.security.JWTAuthenticationFilter
+ lu.uni.e4l.platform.security.JWTAuthenticationFilter$1
+ lu.uni.e4l.platform.security.JWTAuthenticationFilter$BadAuthenticationRequestException
+lu/uni/e4l/platform/service/ContactUsService.java
+ lu.uni.e4l.platform.service.ContactUsService
+lu/uni/e4l/platform/model/Variable.java
+ lu.uni.e4l.platform.model.Variable
+lu/uni/e4l/platform/model/User.java
+ lu.uni.e4l.platform.model.User
+lu/uni/e4l/platform/repository/QuestionRepository.java
+ lu.uni.e4l.platform.repository.QuestionRepository
+lu/uni/e4l/platform/model/Questionnaire.java
+ lu.uni.e4l.platform.model.Questionnaire
+lu/uni/e4l/platform/model/ContactFormData.java
+ lu.uni.e4l.platform.model.ContactFormData
+lu/uni/e4l/platform/Main.java
+ lu.uni.e4l.platform.Main
+lu/uni/e4l/platform/security/WebSecurity.java
+ lu.uni.e4l.platform.security.WebSecurity
+lu/uni/e4l/platform/model/VariableValue.java
+ lu.uni.e4l.platform.model.VariableValue
+lu/uni/e4l/platform/service/ExpressionEvaluator.java
+ lu.uni.e4l.platform.service.ExpressionEvaluator
+ lu.uni.e4l.platform.service.ExpressionEvaluator$InvalidExpressionException
+ lu.uni.e4l.platform.service.ExpressionEvaluator$Operator
+lu/uni/e4l/platform/service/QuestionnaireService.java
+ lu.uni.e4l.platform.service.QuestionnaireService
+ lu.uni.e4l.platform.service.QuestionnaireService$1
+lu/uni/e4l/platform/i18n/I18nInterceptor.java
+ lu.uni.e4l.platform.i18n.I18nInterceptor
+lu/uni/e4l/platform/model/scale/IntervalScale.java
+ lu.uni.e4l.platform.model.scale.IntervalScale
+lu/uni/e4l/platform/security/JWTAuthenticationFailureHandler.java
+ lu.uni.e4l.platform.security.JWTAuthenticationFailureHandler
+lu/uni/e4l/platform/filter/SimpleCORSFilter.java
+ lu.uni.e4l.platform.filter.SimpleCORSFilter
+lu/uni/e4l/platform/repository/SeminarRepository.java
+ lu.uni.e4l.platform.repository.SeminarRepository
+lu/uni/e4l/platform/model/scale/DiscreteScale.java
+ lu.uni.e4l.platform.model.scale.DiscreteScale
+lu/uni/e4l/platform/repository/VariableRepository.java
+ lu.uni.e4l.platform.repository.VariableRepository
+lu/uni/e4l/platform/model/dto/ResultBreakdownSeminar.java
+ lu.uni.e4l.platform.model.dto.ResultBreakdownSeminar
+lu/uni/e4l/platform/service/crypto/SignedObjectSerializer.java
+ lu.uni.e4l.platform.service.crypto.SignedObjectSerializer
+ lu.uni.e4l.platform.service.crypto.SignedObjectSerializer$1
+ lu.uni.e4l.platform.service.crypto.SignedObjectSerializer$InvalidSignedObjectException

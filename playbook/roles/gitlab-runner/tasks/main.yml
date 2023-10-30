@@ -1,0 +1,36 @@
+- name: Install curl (required for GitLab Runner installation)
+  apt:
+    name: curl
+    state: present
+
+- name: Add GitLab Runner repository
+  shell: |
+    curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | sudo bash
+
+- name: Install GitLab Runner
+  apt:
+    name: gitlab-runner
+    state: present
+
+- name: Register GitLab Runner
+  command: >
+        gitlab-runner register 
+        --non-interactive 
+        --url "http://192.168.56.10/gitlab/" 
+        --registration-token "{{ token }}" 
+        --executor "docker" 
+        --docker-image "alpine:latest" 
+        --description "[integration-server] docker" 
+        --tag-list "integration"
+  become: yes
+  when: runner_registration_status.rc != 0
+  tags: register_runner
+
+- name: Check if runner is already registered
+  shell: gitlab-runner list | grep "[integration-server] docker"
+  register: runner_registration_status
+  failed_when: false
+  changed_when: false
+
+- name: Restart GitLab Runner
+  command: gitlab-runner restart

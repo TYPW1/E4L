@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        maven { url "https://repo.spring.io/milestone" }
+        maven { url "https://plugins.gradle.org/m2/" }
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.4.2")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group 'lu.uni.e4l.platform'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+bootJar {
+    archiveName = 'e4l-server.jar'
+}
+
+repositories {
+    google()
+    mavenCentral()
+//    jcenter()
+}
+
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.1'
+    compile 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.7.1'
+    compile('mysql:mysql-connector-java')
+    compile('io.springfox:springfox-swagger2:3.0.0')
+    compile("io.springfox:springfox-swagger-ui:3.0.0")
+    compile("org.springframework.data:spring-data-rest-webmvc")
+    compile("org.springframework.boot:spring-boot-starter-security")
+    compile("com.auth0:java-jwt:3.4.0")
+    compile("it.ozimov:spring-boot-email-core:0.6.3")
+
+    compileOnly('org.projectlombok:lombok')
+    annotationProcessor('org.projectlombok:lombok')
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('com.h2database:h2:1.4.194')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

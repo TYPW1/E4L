@@ -1,0 +1,288 @@
+{
+  "home": {
+    "home": "Home",
+    "welcome": "Welcome to Energy 4 life",
+    "intro": "Here you can calculate your own personal energy consumption and compare it against people locally and from around the world. In addition we provide information on energy and offer <1>educational workshops</1> for schools.",
+    "scores_calculated": "Already {{ scores }} energy scores calculated",
+    "calculate": "Calculate my Energy score now",
+    "how_it_works": {
+      "title": "How does it work?",
+      "avg_energy_use": "We collected average energy use for every activity in our daily lives",
+      "gave_every_activity_score": "We gave every activity a score and represented these activities with pictures",
+      "choose_picture": "You choose the picture that suits you best",
+      "add_pictures_up": "We add the pictures up and calculate your energy score",
+      "compare": "You can compare your score to the rest of the world!",
+      "link": "Link to some description of how the energy calculator works"
+    },
+    "why": {
+      "title": "Why is it interesting to calculate your energy score?",
+      "limited": "Our current energy sources are limited and running out",
+      "heating": "Most current energy sources are heating up our environment",
+      "health": "Most current energy sources damage our health",
+      "expensive": "Energy is expensive",
+      "habits": "The energy score allows you to re-think your energy consumption habits!"
+    },
+    "who_are_we": {
+      "title": "Who are we?",
+      "aim": "We work at the university and want to increase public awareness about energy use and the environment."
+    }
+  },
+  "mission": {
+    "mission": "About",
+    "our_mission": "Our planet, our choice",
+    "mission_1": "Energy4life allows you to calculate your own personal energy consumption, compare it to other peoples, and to see how renewable energy technologies could meet this consumption.",
+    "mission_2": "Energy4life helps you see how lifestyle choices affects the amount of energy we need to generate, and how by consuming less, less fossil fuel needs to be burned, or less land area is needed for renewable energy technologies.",
+    "mission_3": "As researchers, we want to make the subject of energy understandable to everyone, so that we can all join the conversation and decide what is best for the planet.",
+    "for_educators": "For Educators:",
+    "mission_4": "Energy4life provides a tool to make your daily energy habits transparent, students within the class can compare their energy scores.",
+    "mission_5": "The app allows you to experiment with changes that you could implement to see if you can reduce your Energy Score.",
+    "mission_6": "Educators can use our tool as a conversation starter around energy production and consumption, to raise awareness about the consequences of our daily actions. They can use it as a simulator so that students can explore the effects of different lifestyle choices. They can also use it as a starting point for a project on renewable energy, in their class or in their school. They could, for instance, explore what would happen or need to happen if everyone lived like their class does, in terms of energy consumption. ",
+    "mission_7": "We offer half day <0>workshops</0> on the topics of energy consumption and generation including hands-on experiments and guided use of the app. <1>Contact us</1> if you would like further information or would like to participate in a workshop."
+  },
+  "team": {
+    "team": "Team",
+    "who_are_we": "Who are we?",
+    "renewable_energy_team": "Renewable Energies Team",
+    "software_engineering_team": "Software Engineering Team",
+    "back": "Back",
+    "members": {
+      "kevinb": "Kevin is a student of the BiCS programme. He laid out the groundwork for plotting of information. He believes that raising awareness about energy consumption is a great way to inspire looking out for our plane",
+      "alfredob": "Alfredo is a Ph.D. student at the Luxembourg Institute of Science and Technology. He performs his studies as part of the doctoral training unit <0>PACE (Photovoltaics: Advanced Concepts for high Efficiency)</0>. He is passionate about the design of new materials for energy harvesting and optoelectronic applications. He finds in science his tool to fight climate change and contribute to the sustainable development of society",
+      "alfredoc": "Alfredo's research fields include modern software engineering methods, dependable systems, and computing education. His personal home page can be found <0>here</0>",
+      "phillipd": "Phil has 15 years experience researching photovoltaic devices (see his <0>website</0>) and is interested in the intersection of renewable energy, human behaviour and economy",
+      "aliced": "Alice is a PhD student and her research is focused on <0>photovoltaics</0>. She has always valued the environment and animals and her wish is to be able to protect both of them in the future",
+      "robertr": "Robert is a <0>psychologist</0> working on learning & teaching with digital media & technologies. He cares a lot about animal welfare, biodiversity and climate change",
+      "jonathanr": "Jonathan is a PhD-student and he is investigating 2D materials. He is interested in renewable energies, astronomy and keeping Luxembourgish alive",
+      "conrads": "Conrad is a physicist with a background in photovoltaics research. Passionate in teaching and science communication, he likes to present and discuss topics on climate change or renewable energies with the public",
+      "michelem": "Michele is a chemist with more than 5-year experience in building <0>photovoltaic devices</0>. He proudly dedicates part of his time to outreach projects on renewable energies",
+      "vanithav": "Vanitha is a master's student. She is interested in software development and data analysis. She believes that it is a good thing to calculate our daily energy consumption to make sure it is under control. Her personal profile can be found <0>here</0>",
+      "maxw": "Max is a physicist with a background in solid state physics and <0>photovoltaics</0>. Passionate about climate change, renewable energies and energy consumption behaviour",
+      "davidk": "David is a mechanical engineer and passionate science communicator: \"There is one question that I have spent a lot of time with: \"What makes the difference between an OK and a good explanation?\"",
+      "thibaults": "Thibault is a PhD student working on software engineering for machine learning. He believes that the first step to reducing our negative impact on the environment is to become aware of it",
+      "borisf": "Boris is a software engineer who works on this website. He is passionate about technology and believes that wise use of energy will help preserve the environment for future generations",
+      "romainr": "Romain is a software engineer. He participated in the development of the E4L website as a software developer and a DevOps engineer when he was a student in Computer Science at the University of Luxembourg. He believes climate change will impact our life way more than expected if we stay on the same tracks. He thinks that projects such as E4L can help to raise awareness about how impactful our daily habits are on the climat. His personal home page can be found <0>here</0>",
+      "venkateshwarant": "Venkat is a MICS student who majored in intelligent systems and information security profiles (See his <0>profile</0>). He is a passionate software developer, who cares about the environment",
+      "joanaf": "Joana is a PhD student and she is researching about an immerging solar cell material: perovskites. She believes that every small action can have huge impact on the planet and therefore we should choose them consciously",
+      "ricardop": "Ricardo is a PhD student and his project is focused on miniaturized solar cells as part of the <0>PACE training unit</0>. He is passionate for renewable technologies and board games. He is constantly looking forward to explore new horizons and found a safe harbor in research. He believes that everyone can contribute to a better world and that together we can hinder climate change",
+      "unak": "Una has a background in theoretical condensed matter physics and sensor simulations and a keen interest in science outreach and communication."
+    }
+  },
+  "sponsors": {
+    "sponsors": "Sponsors"
+  },
+  "info": {
+    "info": "Info",
+    "information": "Information",
+    "know_more": {
+      "header": "If you would like to know more about energy and",
+      "where_you_live": "where you live",
+      "diet": "your diet",
+      "pets": "your pets",
+      "get_to_work": "how do you get to work",
+      "where_you_work": "where you work",
+      "travels": "your travels",
+      "things": "things you buy",
+      "renewable": "can we go 100% renewable?"
+    },
+    "ext_info": "External information",
+    "sustainability": "Sustainability without the hot air",
+    "sustainability_is": " is an excellent introduction to energy consumption and production which is easy to understand and helped inspire this project."
+  },
+  "contact": {
+    "contact_us": "Contact",
+    "contact_form": "Contact Form",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email address",
+    "subject": "Subject",
+    "message": "Message",
+    "consensus": "I agree to ",
+    "privacy_policy": "privacy policy",
+    "mandatory_field": "* Mandatory field",
+    "send": "Send",
+    "sending": "Sending...",
+    "send_success": "Message has been successfully sent",
+    "send_fail": "Sorry, we couldn't deliver your message to Energy4Life team. Please try again later."
+  },
+  "privacy": {
+    "privacy_notice": "Privacy Notice",
+    "table_of_contents": {
+      "title": "TABLE OF CONTENTS:",
+      "introduction": "INTRODUCTION",
+      "who_are_we": "WHO ARE WE?",
+      "purpose": "PURPOSE, CATEGORIES OF PERSONAL DATA, LEGAL BASIS AND RETENTION PERIOD",
+      "data_collection": "DATA COLLECTION, RECIPIENTS AND DATA TRANSFERS",
+      "rights": "YOUR RIGHTS"
+    },
+    "introduction": "This Privacy Notice explains how the Energy4life team processes personal data.",
+    "introduction2": "The survey responses on this website are anonymous and we will not be able to connect those survey responses to you in any way. We use the survey responses to raise awareness about the consequences of the daily choices of the users in terms of energy consumption. If you wish to contact us via the contact form on our website, we will process the contact form data as set out below.",
+    "who_are_we": {
+      "content": "Energy4life is a project carried out by the University of Luxembourg. The University of Luxembourg is a public higher education and research establishment, operating under the supervision of the Ministry for higher education. ",
+      "address_headline": "The University of Luxembourg has its official address at: ",
+      "address_1": "MAISON DU SAVOIR",
+      "address_2": "2, avenue de l’Université",
+      "address_3": "L- 4365 ESCH-BELVAL",
+      "address_4": "Phone number: Tel.: ",
+      "address_5": "Internet address: ",
+      "address_6": "The University has appointed a DPO: reachable during working hours. Further information on data protection is provided on ",
+      "address_7": " and an email address is available: "
+    },
+    "purpose": "We collect your personal data in order to answer your contact requests. The categories of personal data include: names, surnames and email addresses. We draw your attention to avoid transmission of sensitive information such as data revealing your racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, data concerning your health. The legal basis for the processing of your personal data is laid down in: article 6 (f) GDPR: processing is necessary for the purposes of the legitimate interests pursued by the Energy4life team to answer the contact requests you may address us.",
+    "purpose2": "We keep your data as long as you wish to continue being contacted by our team.",
+    "how_we_collect_data": "We collect the personal data directly, as provided when you contact us through the contact form on the website. The personal data provided will only be accessed by the Enery4life team. Your personal data will only be processed within the European Union.",
+    "rights": "According to the GDPR, you benefit from the following rights: right to be informed, right to access to your personal data, right to rectification, right to erasure, right to restrict the scope of the processing, right to object, right to data portability, right to lodge a complaint. The University provides further information on its website page: ",
+    "complaint": {
+      "p1": "If you consider that the Processing of Personal Data relating to you infringes the GDPR, you will have the right – without prejudice to any other administrative or judicial remedy – to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence, place of work or place of the alleged infringement.",
+      "p2": "In Luxembourg, the competent authority is the Commission Nationale pour la Protection des Données (CNPD).",
+      "contact": "You also have the right to lodge a with the Commission Nationale pour la Protection des Données (CNPD) at : ",
+      "a1": "Commission Nationale pour la Protection des Données",
+      "a2": "1, avenue du Rock’n’Roll",
+      "a3": "Service des réclamations",
+      "a4": "L-4361 Esch-sur-Alzette",
+      "tel": "Tel. : ",
+      "fax": "Fax : ",
+      "also_contact": "You can also use their contact form, at: "
+    },
+    "appl_law_p1": "The present Notice shall be governed and construed in accordance with the Luxembourgish law. ",
+    "appl_law_p2": "Any dispute concerning the existence, interpretation or performance of this Notice which cannot be settle amicably, shall fall within the jurisdiction of the Courts of Luxembourg City, without prejudice to the rights of the Data Subjects to bring the matters before the court where he or she has her place of residence as well as its right to lodge a complaint with the supervisory authority."
+  },
+  "profile": {
+    "login": "Log in",
+    "signup": "Sign up",
+    "change_email": "Change email",
+    "change_password": "Change password",
+    "profile_update": "Profile update",
+    "profile_updated": "The profile was updated!",
+    "logout": "Logout",
+    "preferred_lang": "Preferred language",
+    "age": "Age",
+    "residence_country": "Country of residence",
+    "nationality": "Nationality",
+    "people_count": "Number of people sharing the living place",
+    "less_energy": "Do you think you use less energy than the average person?",
+    "update": "Update",
+    "persons": {
+      "one": "1 person",
+      "two": "2 persons",
+      "three": "3 persons",
+      "four": "4 persons",
+      "five_plus": "more than 4 persons"
+    },
+    "country": {
+      "luxembourg": "Luxembourg",
+      "belgium": "Belgium",
+      "france": "France",
+      "germany": "Germany",
+      "other": "Other"
+    },
+    "nationalities": {
+      "luxembourg": "Luxembourgish",
+      "belgium": "Belgian",
+      "france": "French",
+      "germany": "German",
+      "other": "Other"
+    },
+    "select": "Select"
+  },
+  "login": {
+    "login_signup": "Log-in/Sign-up",
+    "email": "E-mail",
+    "password": "Password",
+    "email_required": "Email is required",
+    "password_required": "Password is required"
+  },
+  "signup": {
+    "password_verification": "Password Verification",
+    "password_verification_required": "Password verification is required",
+    "password_verification_not_match": "Password verification should be the same as the password"
+  },
+  "result": {
+    "your_result": "Your personal Energy Score",
+    "kwh_day": "{{ result }} kWh per day",
+    "what_means": "What does this mean?",
+    "restart": "Restart questionnaire",
+    "visual_comparision": "Energy scores",
+    "luxembourg_avg": "Luxembourg average score:",
+    "europe_avg": "Europe average score:",
+    "world_avg": "World average score:",
+    "average_scores": "E4L Users Average Scores",
+    "logo_title": "Energy consumption: a comparison",
+    "comparison_chart_title": "Energy consumption comparison chart",
+    "you": "You",
+    "luxembourg": "Luxembourg",
+    "europe": "Europe",
+    "world": "World",
+    "pie_chart_title": "Result breakdown chart of users",
+    "distribution_chart_title": "Distribution of E4L users daily energy consumption",
+    "number_people": "Number of people",
+    "daily_consumption": "Daily Energy Consumption (kWh/d/p)",
+    "e4l_users": "E4L Users",
+    "land_calc": {
+      "header": "Land Calculator",
+      "intro": "The circle below represents the land area needed to go 100% renewable if everyone in Luxembourg lived like you all the time. See how the size of the circle changes by changing the source of renewable energy or by moving the slider representing your energy consumption."
+    }
+  },
+  "breakdown": {
+    "title": "Result breakdown",
+    "question": "Question",
+    "answers": "Answers",
+    "score": "Score"
+  },
+  "questionnaire": {
+    "finish": "Finish",
+    "previous": "Previous",
+    "next": "Next",
+    "info": "info ",
+    "your_score": "Your score {{score}} kWh per day",
+    "world_score": "World average consumption per person: 60 kWh per day"
+  },
+  "admin": {
+    "not_admin": "This page is only accessible to administrators.",
+    "back_home": "Home page"
+  },
+  "seminar": {
+    "home": "Workshop",
+    "intro": "Within the Energy4Life project we also offer workshops to young people to familiarise them with the concepts of power and energy, to discuss their own energy consumption, and to help them understand what this means in terms of whether it is possible to go 100% renewable. To find out more information or book a workshop please <1>contact us</1>.",
+    "seminar_field": "Enter the workshop code provided",
+    "access": "Access to workshop",
+    "button": "I have a workshop code",
+    "field": "Workshop Code",
+    "objectives": {
+      "title": "Objectives",
+      "objective_1": "To familiarise the students with the concepts of power and energy",
+      "objective_2": "To calculate the students daily energy consumption",
+      "objective_3": "To calculate whether Luxembourg has enough resources to supply their energy consumption need renewably"
+    },
+    "learning_outcomes": {
+      "title": "Learning Outcomes",
+      "learning_outcome_1": "The student will be able to understand and explain the difference between power and energy to friends and family, especially in the context of own consumption and renewable energy generation by participating in the hands on workshop.",
+      "learning_outcome_2": "The student will be able to understand how to compare different sources of energy consumption to see which is relatively more important by learning how to translate different units for energy into a single unified unit. This will be achieved by examining the given examples, and participating in an online quiz.",
+      "learning_outcome_3": "The student will understand the principle that renewable resources are limited in nature as they rely on land surface area, device power conversion efficiency, and climatic conditions. They will be able to see the relationship between daily energy consumption and population and the amount of energy that we can produce renewably. This will be achieved by solving a balance problem during the workshop using data generated by the students."
+    },
+    "format": {
+      "title" : "Format",
+      "format_1": "The workshop will take the format of hands on scientific experiments, participating in a self evaluation poll with the results collectively summarised for the whole group, as well as problem solving in small groups."
+    },
+    "target_audience": {
+      "title": "Target Audience",
+      "target_audience_1": "The target audience is for students from 14 - 18 years old"
+    },
+    "results": {
+      "user": {
+        "errorClosed": "The workshop is closed. These answers are not accounted.",
+        "errorTodo": "The workshop is not open yet. These answers are not accounted.",
+        "errorCancelled": "The workshop has been cancelled. These answers are not accounted."
+      }
+    }
+  },
+  "news": {
+    "news": "News"
+  },
+  "footer": {
+    "sponsored": "The energy 4 life website is sponsored by <0>the University of Luxembourg and the FNR</0>",
+    "copyright": "Copyright © <0>Université du Luxembourg</0> ",
+    "rights": "All rights reserved | "
+  },
+  "yes": "Yes",
+  "no": "No"
+}

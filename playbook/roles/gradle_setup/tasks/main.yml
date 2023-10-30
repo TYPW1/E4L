@@ -1,0 +1,29 @@
+---
+- name: Download Gradle
+  get_url:
+    url: "https://services.gradle.org/distributions/gradle-6.7.1-bin.zip"
+    dest: "/tmp/gradle-6.7.1-bin.zip"
+
+- name: Create Gradle directory
+  file:
+    path: "/opt/gradle"
+    state: directory
+    mode: '0755'
+
+- name: Ensure unzip is installed
+  apt:
+    name: unzip
+    state: present
+  when: ansible_os_family == 'Debian'
+
+- name: Unzip Gradle
+  unarchive:
+    src: "/tmp/gradle-6.7.1-bin.zip"
+    dest: "/opt/gradle"
+    remote_src: yes
+
+- name: Set Gradle environment variables
+  lineinfile:
+    path: /etc/profile.d/gradle.sh
+    create: yes
+    line: 'export PATH=$PATH:/opt/gradle/gradle-6.7.1/bin'

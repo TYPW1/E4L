@@ -1,0 +1,307 @@
+{
+  "home": {
+    "home": "Startseite",
+    "intro": "Hier können Sie Ihren persönlichen Energieverbrauch berechnen und ihn mit anderen Menschen vor Ort und in der ganzen Welt vergleichen. Außerdem stellen wir Informationen zum Thema Energie zur Verfügung und bieten <1>Bildungsworkshops</1> für Schulen an.",
+    "welcome": "Willkommen bei Energy 4 Life",
+    "scores_calculated": "Bereits {{ scores }} Energie-Scores berechnet",
+    "calculate": "Jetzt meinen Energie-Score berechnen",
+    "how_it_works": {
+      "title": "Wie funktioniert es?",
+      "avg_energy_use": "Wir haben den durchschnittlichen Energieverbrauch für jede Aktivität in unserem täglichen Leben gesammelt",
+      "gave_every_activity_score": "Wir haben jeder Aktivität eine Punktzahl gegeben und diese Aktivitäten mit Bildern dargestellt",
+      "choose_picture": "Sie wählen das Bild, das am besten zu Ihnen passt",
+      "add_pictures_up": "Wir addieren die Bilder und berechnen Ihren Energie-Score",
+      "compare": "Sie können Ihre Punktzahl mit dem Rest der Welt vergleichen!",
+      "link": "Link zu einer Beschreibung der Funktionsweise des Energierechners"
+    },
+    "why": {
+      "title": "Warum ist es interessant, Ihren Energie-Score zu berechnen?",
+      "limited": "Unsere derzeitigen Energiequellen sind begrenzt und gehen zur Neige",
+      "heating": "Die meisten aktuellen Energiequellen heizen unsere Umwelt auf",
+      "health": "Die meisten aktuellen Energiequellen schädigen unsere Gesundheit",
+      "expensive": "Energie ist teuer",
+      "habits": "Mit dem Energie-Score können Sie Ihre Energieverbrauchsgewohnheiten überdenken!"
+    },
+    "who_are_we": {
+      "title": "Wer sind wir?",
+      "aim": "Wir arbeiten an der Universität und möchten die Öffentlichkeit für den Energieverbrauch und die Umwelt sensibilisieren."
+    }
+  },
+  "mission": {
+    "mission": "Mission",
+    "our_mission": "Unsere Aufgabe",
+    "mission_1": "Wir leben in einer Zeit tiefgreifender und dramatischer energetischer Veränderungen, in der unser Energiebedarf zusammen mit der Anzahl der Menschen steigt. Der ganze Planet leidet unter unseren energetischen Entscheidungen. Diese Website stellt die Person in den Mittelpunkt, indem sie unseren persönlichen Energieverbrauch berechnet.",
+    "mission_2": "Als Wissenschaftler und Forscher fühlen wir uns der Gesellschaft gegenüber verpflichtet, etwas zurückzugeben. Wir müssen in die Hände unserer Gesellschaft legen, was wir täglich erforschen und studieren. Outreach-Projekte sind eine Wahl und zusammen mit verschiedenen Forschungsbereichen Luxemburgs, d. H. Der Universität, dem FNR und der Umweltbehörde, werden wir versuchen, das Bewusstsein der Menschen für Energie und erneuerbare Energien zu stärken.",
+    "mission_3": "Als Bürger haben wir das Bedürfnis, an der bereits laufenden Energiewende teilzunehmen, die unsere Gesellschaft verändern wird.",
+    "mission_4": "Dazu müssen sich alle Bürger ihres energetischen Fußabdrucks bewusst sein. Wir werden ein Werkzeug bereitstellen, das uns hilft, unsere Gewohnheiten und warum nicht auch unsere zukünftigen Entscheidungen neu zu definieren.",
+    "for_educators": "Für Lehrkräfte:",
+    "mission_5": "Mit der App können Sie mit Änderungen experimentieren, die Sie umsetzen könnten, um zu sehen, ob Sie Ihren Energiewert verringern können.",
+    "mission_6": "Lehrkräfte können unser Tool als Gesprächsanlass zum Thema Energieerzeugung und -verbrauch nutzen, um das Bewusstsein für die Folgen unseres täglichen Handelns zu schärfen. Sie können es als Simulator verwenden, damit die Schüler die Auswirkungen verschiedener Lebensstilentscheidungen erkunden können. Sie können es auch als Ausgangspunkt für ein Projekt über erneuerbare Energien in ihrer Klasse oder in ihrer Schule verwenden. Sie könnten zum Beispiel untersuchen, was passieren würde oder passieren müsste, wenn jeder so leben würde wie ihre Klasse, was den Energieverbrauch betrifft.",
+    "mission_7": "Wir bieten halbtägige <0>Workshops</0> zu den Themen Energieverbrauch und -erzeugung an, einschließlich praktischer Experimente und angeleiteter Nutzung der App. <1>Kontaktieren Sie uns</1>, wenn Sie weitere Informationen wünschen oder an einem Workshop teilnehmen möchten."
+  },
+  "team": {
+    "team": "Team",
+    "who_are_we": "Wer sind wir?",
+    "renewable_energy_team": "Team für erneuerbare Energien",
+    "software_engineering_team": "Software-Engineering-Team",
+    "sponsors": "Vorherige und aktuelle Sponsoren & Anerkennung",
+    "back": "ZURÜCK",
+    "members": {
+      "kevinb": "Kevin ist ein Student des BiCS-Programms. Er hat die Grundlagen für das Plotten von Informationen geschaffen. Er ist der Meinung, dass die Sensibilisierung für den Energieverbrauch ein guter Weg ist, um das Bewusstsein für unseren Planeten zu schärfen.",
+      "alfredob": "Alfredo ist Doktorand am Luxembourg Institute of Science and Technology. Er führt seine Studien im Rahmen der Doktorandenausbildung <0>PACE (Photovoltaics: Advanced Concepts for high Efficiency</0>) durch. Seine Leidenschaft gilt der Entwicklung neuer Materialien für die Energiegewinnung und optoelektronische Anwendungen. In der Wissenschaft sieht er sein Werkzeug, um den Klimawandel zu bekämpfen und zu einer nachhaltigen Entwicklung der Gesellschaft beizutragen.",
+      "alfredoc": "Alfredo Capozuccas Forschungsgebiete umfassen moderne Software-Engineering-Methoden, verlässliche Systeme und Informatikausbildung. Seine persönliche Homepage finden Sie <0>hier</0>",
+      "phillipd": "Phil Dale hat 15 Jahre Erfahrung in der Erforschung von Photovoltaikanlagen (siehe seine <0>Website</0>) und interessiert sich für die Schnittstelle zwischen erneuerbaren Energien, menschlichem Verhalten und Wirtschaft",
+      "aliced": "Alice ist Doktorandin und forscht im Bereich der <0>Fotovoltaik</0>. Die Umwelt und die Tiere waren ihr schon immer wichtig, und ihr Wunsch ist es, beides in Zukunft schützen zu können.",
+      "robertr": "Robert ist <0>Psychologe</0> und beschäftigt sich mit Lernen und Lehren mit digitalen Medien und Technologien. Ihm liegen die Themen Tierschutz, Biodiversität und Klimawandel sehr am Herzen.",
+      "jonathanr": "Jonathan ist Doktorand und erforscht 2D-Materialien. Er interessiert sich für erneuerbare Energien, Astronomie und die Pflege des Luxemburgischen.",
+      "conrads": "Conrad ist ein Physiker mit einem Hintergrund in der Photovoltaikforschung. Als leidenschaftlicher Lehrer und Wissenschaftskommunikator präsentiert und diskutiert er gerne mit der Öffentlichkeit über Themen wie Klimawandel oder erneuerbare Energien.",
+      "michelem": "Michele ist Chemiker mit mehr als 5 Jahren Erfahrung im Bau von <0>Photovoltaikanlagen</0>. Mit Stolz widmet er einen Teil seiner Zeit Outreach-Projekten zu erneuerbaren Energien",
+      "vanithav": "Vanitha ist Studentin im Masterstudiengang. Sie interessiert sich für Softwareentwicklung und Datenanalyse. Sie glaubt, dass es gut ist, unseren täglichen Energieverbrauch zu berechnen, um sicherzustellen, dass er unter Kontrolle ist. Ihr persönliches Profil finden Sie <0>hier</0>",
+      "maxw": "Max ist ein Physiker mit einem Hintergrund in Festkörperphysik und <0>Photovoltaik</0>. Er beschäftigt sich leidenschaftlich mit Klimawandel, erneuerbaren Energien und Energieverbrauchsverhalten",
+      "davidk": "David ist Maschinenbauingenieur und leidenschaftlicher Wissenschaftskommunikator: \"Es gibt eine Frage, mit der ich sehr viel Zeit verbracht habe: Was macht den Unterschied zwischen einer Erklärung aus die OK ist und eine die gut ist?\"",
+      "thibaults": "Thibault Simonetto ist Doktorand und arbeitet an der Softwareentwicklung für maschinelles Lernen. Er glaubt, dass der erste Schritt zur Verringerung unserer negativen Auswirkungen auf die Umwelt darin besteht, sich dieser bewusst zu werden.",
+      "borisf": "Boris ist ein Software-Ingenieur, der an dieser Website arbeitet. Er hat eine Leidenschaft für Technologie und glaubt, dass ein vernünftiger Umgang mit Energie dazu beiträgt, die Umwelt für künftige Generationen zu erhalten.",
+      "romainr": "Romain ist ein Software-Ingenieur. Als Student der Informatik an der Universität Luxemburg war er an der Entwicklung der E4L-Website als Softwareentwickler und DevOps-Ingenieur beteiligt. Er glaubt, dass der Klimawandel unser Leben viel stärker beeinflussen wird als erwartet, wenn wir so weitermachen wie bisher. Er ist der Meinung, dass Projekte wie E4L dazu beitragen können, das Bewusstsein dafür zu schärfen, wie sehr sich unsere täglichen Gewohnheiten auf den Klimawandel auswirken. Seine persönliche Homepage finden Sie <0>hier</0>",
+      "venkateshwarant": "Venkat ist MICS-Student mit den Schwerpunkten Intelligente Systeme und Informationssicherheitsprofile (siehe sein <0>Profil</0>). Er ist ein leidenschaftlicher Softwareentwickler, der sich um die Umwelt kümmert.",
+      "joanaf": "Joana ist Doktorandin und forscht über ein neuartiges Solarzellenmaterial: Perowskite. Sie ist der Meinung, dass jede kleine Handlung große Auswirkungen auf den Planeten haben kann und wir sie daher bewusst wählen sollten.",
+      "ricardop": "Ricardo ist Doktorand und sein Projekt konzentriert sich auf miniaturisierte Solarzellen als Teil der <0>PACE-Ausbildungseinheit</0>. Er begeistert sich für erneuerbare Technologien und Brettspiele. Er freut sich ständig darauf, neue Horizonte zu erkunden und hat in der Forschung einen sicheren Hafen gefunden. Er glaubt, dass jeder zu einer besseren Welt beitragen kann und dass wir gemeinsam den Klimawandel aufhalten können."
+    }
+  },
+  "sponsors": {
+    "sponsors": "Sponsoren"
+  },
+  "info": {
+    "info": "Info",
+    "information": "Information",
+    "know_more": {
+      "header": "Wenn Sie mehr über Energie wissen möchten und",
+      "where_you_live": "wo Sie leben",
+      "diet": "Ihre Ernährung",
+      "pets": "Ihre Haustiere",
+      "get_to_work": "wie Sie zur Arbeit kommen",
+      "where_you_work": "wo Sie arbeiten",
+      "travels": "Ihre Reisen",
+      "things": "was Sie kaufen",
+      "renewable": "ob wir 100 % erneuerbare Energien einsetzen können?"
+    },
+    "ext_info": "Externe Informationen",
+    "sustainability": "Sustainability without the hot air",
+    "sustainability_is": " ist eine hervorragende, leicht verständliche Einführung in das Thema Energieverbrauch und -erzeugung, die uns inspiriert hat dieses Projekt zu durchzuführen."
+  },
+  "contact": {
+    "contact_us": "Kontakt",
+    "contact_form": "Kontaktformular",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "email": "Email",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "consensus": "",
+    "privacy_policy": "Ich stimme der Datenschutzrichtlinie zu",
+    "mandatory_field": "* Pflichtfeld",
+    "send": "Senden",
+    "sending": "Senden...",
+    "send_success": "Die Nachricht wurde erfolgreich versendet",
+    "send_fail": "Leider konnten wir Ihre Nachricht nicht an das Energy4Life-Team übermitteln. Bitte versuchen Sie es später erneut."
+  },
+  "privacy": {
+    "privacy_notice": "Datenschutzerklärung",
+    "table_of_contents": {
+      "title": "INHALTSVERZEICHNIS:",
+      "introduction": "EINFÜHRUNG",
+      "1": "WER SIND WIR ?",
+      "2": "WAS IST DER ZWECK DER VERARBEITUNG?",
+      "3": "WELCHE PERSÖNLICHEN DATEN ERFASSEN UND WEITERVERFAHREN?",
+      "4": "WIE HABEN WIR PERSÖNLICHE DATEN ERFASST?",
+      "5": "AUF WELCHER RECHTLICHEN GRUNDLAGE VERARBEITEN WIR IHRE PERSÖNLICHEN DATEN?",
+      "6": "WER SIND DIE EMPFÄNGER IHRER PERSÖNLICHEN DATEN?",
+      "7": "ÜBERTRAGEN WIR IHRE PERSÖNLICHEN DATEN AUSSERHALB DER EUROPÄISCHEN UNION?",
+      "8": "WIE LANG SPEICHERN WIR IHRE PERSÖNLICHEN DATEN?",
+      "9": "WAS SIND IHRE RECHTE IN BEZUG AUF DIE VERARBEITUNG IHRER PERSÖNLICHEN DATEN?",
+      "10": "WIE KÖNNEN SIE EINE BESCHWERDE EINREICHEN?",
+      "11": "ANWENDBARES RECHT - GERICHTSSTAND"
+    },
+    "introduction": "In Übereinstimmung mit den Artikeln 12, 13 und 14 der EU-Verordnung 2016/679 zum Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und zum freien Datenverkehr (im Folgenden „DSGVO“) ist diese Datenschutzerklärung ( im Folgenden „die Mitteilung“) erläutert, wie die Universität Luxemburg personenbezogene Daten im Zusammenhang mit dieser Website für persönliche Energierechner sammelt, verarbeitet und schützt.",
+    "who_are_we": {
+      "content": "Die Universität Luxemburg ist eine öffentliche Hochschul- und Forschungseinrichtung, die unter der Aufsicht des Ministeriums für Hochschulbildung arbeitet.",
+      "address_headline": "Die offizielle Adresse der Universität Luxemburg lautet: ",
+      "address_1": "MAISON DU SAVOIR",
+      "address_2": "2, avenue de l’Université",
+      "address_3": "L- 4365 ESCH-BELVAL",
+      "address_4": "Telefonnummer: Tel.: ",
+      "address_5": "Internetadresse: ",
+      "address_6": "Die Universität hat einen Datenschutzbeauftragten ernannt, der während der Arbeitszeit erreichbar ist. Weitere Informationen finden Sie unter ",
+      "address_7": " und eine E-Mail-Adresse ist verfügbar:"
+    },
+    "which_data_do_we_collect": {
+      "data_includes": "Die verarbeiteten personenbezogenen Daten umfassen: ",
+      "data_includes_p1": "die Energie, die Sie in Ihren täglichen Aktivitäten verbrauchen",
+      "data_includes_p2": "Einige spezifische Informationen über Ihre Lebensweise, die zur Berechnung des Energieverbrauchs nützlich sind",
+      "concl": "Wir machen Sie darauf aufmerksam, dass keine sensiblen Informationen wie Daten über Ihre Rasse oder ethnische Herkunft, politische Meinungen, religiöse oder philosophische Überzeugungen oder Daten zur Gewerkschaftsmitgliedschaft über Ihre Gesundheit übermittelt werden"
+    },
+    "how_we_collect_data": "Wir erfassen die personenbezogenen Daten direkt, wie von Ihnen bei der Beantwortung der Fragen auf der Website angegeben.",
+    "on_which_basis": {
+      "title": "Die Rechtsgrundlage für die Verarbeitung Ihrer personenbezogenen Daten ist festgelegt in:",
+      "article_6": "Artikel 6 Buchstabe a DSGVO:",
+      "p_1": "Die betroffene Person hat der Verarbeitung ihrer personenbezogenen Daten für einen oder mehrere bestimmte Zwecke zugestimmt."
+    },
+    "who_are_the_recipients": "Die Universität von Luxemburg.",
+    "transfer_data": "Ihre personenbezogenen Daten werden innerhalb der Europäischen Union verarbeitet. ",
+    "store_data": "Die von Ihnen angegebenen personenbezogenen Daten werden anonym aufbewahrt, sodass wir nicht wissen, wer die Daten bereitstellt. Die Daten werden nur für den in Teil 1 beschriebenen Zweck verwendet. Wenn sich der Zweck der Website ändert, werden die Daten nicht für den neuen Zweck verwendet.",
+    "your_rights": {
+      "title": "Nach Angaben der DSGVO profitieren Sie insbesondere von folgenden Rechten: Recht auf Information, Recht auf Zugang zu Ihren personenbezogenen Daten, Recht auf Berichtigung, Recht auf Löschung, Recht auf Einschränkung des Umfangs der Verarbeitung, Recht auf Widerspruch, Recht auf Daten Portabilität, Recht, eine Beschwerde einzureichen. Weitere Informationen bietet die Universität auf ihrer Website: ",
+      "in_practice": "In der Praxis können Sie Ihre Rechte ausüben, indem Sie sich an unseren Datenschutzbeauftragten wenden:",
+      "send": "Durch Senden einer Anfrage per Post an:",
+      "address_1": "Université du Luxembourg",
+      "address_2": "À l’attention de: DPO – Exercise of Data Subject rights",
+      "address_3": "Maison du Savoir",
+      "address_4": "2, Avenue de l’Université",
+      "address_5": "L-4365 ESCH BELVAL",
+      "or": "Oder",
+      "send_email": "Durch Senden einer Anfrage per E-Mail an den Datenschutzbeauftragten unter ",
+      "send_email_content": "Jeder Antrag wird von der Universität Luxemburg unverzüglich und nach Möglichkeit spätestens einen (1) Monat nach Eingang bearbeitet, um Sie über den Status Ihres Antrags zu informieren. Diese Frist kann in komplexen Fällen oder aufgrund eines hohen Antragsvolumens um zwei (2) zusätzliche Monate verlängert werden."
+    },
+    "complaint": {
+      "p1": "Wenn Sie der Ansicht sind, dass die Verarbeitung personenbezogener Daten, die Sie betreffen, gegen die DSGVO verstößt, haben Sie - unbeschadet anderer administrativer oder gerichtlicher Abhilfemaßnahmen - das Recht, eine Beschwerde bei einer Aufsichtsbehörde einzureichen, insbesondere in dem Mitgliedstaat Ihrer Gewohnheit Wohnort, Arbeitsort oder Ort der mutmaßlichen Zuwiderhandlung.",
+      "p2": "In Luxemburg ist die Nationale Kommission für Datenschutz (CNPD) zuständig.",
+      "contact": "Kontakt der CNPD:",
+      "a1": "Commission Nationale pour la Protection des Données",
+      "a2": "1, avenue du Rock’n’Roll",
+      "a3": "Service des réclamations",
+      "a4": "L-4361 Esch-sur-Alzette",
+      "tel": "Tel. : ",
+      "fax": "Fax : ",
+      "also_contact": "Sie können auch das Kontaktformular unter folgender Adresse verwenden: "
+    },
+    "appl_law_p1": "Diese Mitteilung unterliegt dem luxemburgischen Recht und wird in Übereinstimmung mit diesem ausgelegt. ",
+    "appl_law_p2": "Alle Streitigkeiten über das Bestehen, die Auslegung oder die Ausführung dieser Mitteilung, die nicht gütlich beigelegt werden können, fallen in die Zuständigkeit der Gerichte der Stadt Luxemburg, unbeschadet der Rechte der betroffenen Personen, die Angelegenheit vor das Gericht zu bringen, bei dem sie oder er hat ihren Wohnort sowie das Recht, eine Beschwerde bei der Aufsichtsbehörde einzureichen."
+  },
+  "profile": {
+    "login": "Anmeldung",
+    "signup": "Anmelden",
+    "change_email": "Ändern Sie die E-Mail",
+    "change_password": "Ändere das Passwort",
+    "profile_update": "Profilaktualisierung",
+    "profile_updated": "Das Profil wurde aktualisiert!",
+    "logout": "Ausloggen",
+    "preferred_lang": "Bevorzugte Sprache",
+    "age": "Alter",
+    "residence_country": "Land des Wohnsitzes",
+    "nationality": "Staatsangehörigkeit",
+    "people_count": "Anzahl der Personen, die sich den Wohnort teilen",
+    "less_energy": "Denken Sie, Sie verbrauchen weniger Energie als die durchschnittliche Person?",
+    "update": "Aktualisieren",
+    "persons": {
+      "one": "1 person",
+      "two": "2 personen",
+      "three": "3 personen",
+      "four": "4 personen",
+      "five_plus": "mehr als 4 Personen"
+    },
+    "country": {
+      "luxembourg": "Luxemburg",
+      "belgium": "Belgien",
+      "france": "Frankreich",
+      "germany": "Deutschland",
+      "other": "Andere"
+    },
+    "nationalities": {
+      "luxembourg": "Luxemburgisch",
+      "belgium": "Belgier",
+      "france": "Französisch",
+      "germany": "Deutsche",
+      "other": "Andere"
+    },
+    "select": "Wählen"
+  },
+  "login": {
+    "login_signup": "Anmeldung/Anmelden",
+    "email": "E-mail",
+    "password": "Passwort",
+    "email_required": "E-mail ist erforderlich",
+    "password_required": "Passwort wird benötigt"
+  },
+  "signup": {
+    "password_verification": "Kennwortüberprüfung",
+    "password_verification_required": "Eine Passwortüberprüfung ist erforderlich",
+    "password_verification_not_match": "Die Kennwortüberprüfung sollte mit dem Kennwort übereinstimmen"
+  },
+  "result": {
+    "your_result": "Ihr persönlicher Energie-Score",
+    "kwh_day": "{{ result }} kWh pro Tag",
+    "what_means": "Was bedeutet das?",
+    "restart": "Fragebogen neu starten",
+    "visual_comparision": "Energie-Scores",
+    "luxembourg_avg": "Luxemburger Durchschnittspunktzahl",
+    "europe_avg": "Europa Durchschnittspunktzahl",
+    "world_avg": "Weltdurchschnitt",
+    "average_scores": "Durchschnittliche Punktzahl <br />der E4L-Benutzer",
+    "logo_title": "Energieverbrauch: ein Vergleich",
+    "comparison_chart_title": "Vergleichstabelle zum Energieverbrauch",
+    "pie_chart_title": "Aufschlüsselung Ihres Energieverbrauchs",
+    "distribution_chart_title": "Verteilung des täglichen Energieverbrauchs der E4L-Benutzer",
+    "land_calc": {
+      "header": "Flächenrechner",
+      "intro": "Der Kreis unten stellt die Fläche dar, die benötigt wird, um 100% erneuerbare Energien zu nutzen, wenn jeder in Luxemburg so leben würde wie Sie. Sehen Sie, wie sich die Größe des Kreises ändert, wenn Sie die Quelle der erneuerbaren Energien ändern oder den Schieberegler für Ihren Energieverbrauch bewegen."
+    }
+  },
+  "breakdown": {
+    "title": "Ergebnisaufschlüsselung",
+    "question": "Frage",
+    "answers": "Antworten",
+    "score": "Ergebnis"
+  },
+  "questionnaire": {
+    "finish": "Fertig",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "info": "die Info",
+    "your_score": "Ihre Punktzahl {{score}} kWh pro Tag",
+    "world_score": "Weltdurchschnitt: 60 kWh pro Tag"
+  },
+  "admin": {
+    "not_admin": "Diese Seite ist nur für Administratoren zugänglich.",
+    "back_home": "Startseite"
+  },
+  "seminar": {
+    "home": "Workshops",
+    "intro": "Im Rahmen des Energy4Life-Projekts bieten wir auch Workshops für Jugendliche an, um sie mit den Begriffen Strom und Energie vertraut zu machen, ihren eigenen Energieverbrauch zu erörtern und ihnen dabei zu helfen, zu verstehen, was dies im Hinblick darauf bedeutet, ob es möglich ist, zu 100 % auf erneuerbare Energien umzustellen. Um weitere Informationen zu erhalten oder einen Workshop zu buchen, nehmen Sie bitte <1>Kontakt mit uns</1> auf.",
+    "seminar_field": "Geben Sie den bereitgestellten Workshopcode ein",
+    "access": "Zugang zum Workshop",
+    "button": "Ich habe einen Workshop-Code",
+    "objectives": {
+      "title": "Ziele",
+      "objective_1": "Die Schüler mit den Konzepten von Kraft und Energie vertraut machen",
+      "objective_2": "Berechnung des täglichen Energieverbrauchs der Schüler",
+      "objective_3": "Um zu berechnen, ob Luxemburg über genügend Ressourcen verfügt, um seinen Energieverbrauch zu decken, muss es erneuerbar sein"
+    },
+    "learning_outcomes": {
+      "title": "Lernerfolge",
+      "learning_outcome_1": "Der Schüler wird in der Lage sein, Freunden und der Familie den Unterschied zwischen Strom und Energie zu verstehen und zu erklären, insbesondere im Zusammenhang mit dem eigenen Verbrauch und der Erzeugung erneuerbarer Energie, indem er an dem praktischen Workshop teilnimmt.",
+      "learning_outcome_2": "Der Schüler kann verstehen, wie verschiedene Energieverbrauchsquellen verglichen werden, um festzustellen, welche relativ wichtig sind, indem er lernt, wie verschiedene Energieeinheiten in eine einzige einheitliche Einheit übersetzt werden. Dies wird erreicht, indem die angegebenen Beispiele untersucht und an einem Online-Quiz teilgenommen werden.",
+      "learning_outcome_3": "Der Schüler wird das Prinzip verstehen, dass erneuerbare Ressourcen von Natur aus begrenzt sind, da sie von der Landoberfläche, der Effizienz der Geräteenergieumwandlung und den klimatischen Bedingungen abhängen. Sie werden in der Lage sein, den Zusammenhang zwischen dem täglichen Energieverbrauch und der Bevölkerung sowie der Energiemenge zu erkennen, die wir erneuerbar produzieren können. Dies wird erreicht, indem während des Workshops ein Gleichgewichtsproblem unter Verwendung der von den Schülern generierten Daten gelöst wird."
+    },
+    "format": {
+      "title": "Format",
+      "format_1": "Das Seminar wird in Form von praktischen wissenschaftlichen Experimenten durchgeführt, die an einer Selbstbewertungsumfrage teilnehmen, deren Ergebnisse für die gesamte Gruppe zusammengefasst werden, sowie Problemlösungen in kleinen Gruppen."
+    },
+    "target_audience": {
+      "title": "Zielgruppe",
+      "target_audience_1": "Die Zielgruppe sind Schüler zwischen 14 und 18 Jahren"
+    },
+    "results": {
+      "user": {
+        "errorClosed": "De Workshops ass zou. Dës Äntwerten ginn net berécksiichtegt.",
+        "errorTodo": "Das Workshops ist noch nicht geöffnet. Dës Äntwerten ginn net berécksiichtegt.",
+        "errorCancelled": "Die Workshop wurden abgesagt. Dës Äntwerten ginn net berécksiichtegt."
+      }
+    }
+  },
+  "footer": {
+    "sponsored": "Die energy 4 life Webseite wird von der <0>Universität Luxemburg und vom FNR</0> gefördert",
+    "copyright": "Urheberrecht © <0>Université du Luxembourg</0>",
+    "rights": "Alle Rechte vorbehalten | "
+  },
+  "yes": "Ja",
+  "no": "Nein"
+}

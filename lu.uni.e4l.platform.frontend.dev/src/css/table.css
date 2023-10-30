@@ -1,0 +1,41 @@
+.table-row-l1 {
+    border-width:2px 0 2px 0;
+    border-style:solid;
+    border-color:#dee2e6;
+    font-weight:bold;
+}
+
+.table-row-l2 {
+    border-width:1px 0 1px 0;
+    border-style:solid;
+    border-color:#dee2e6;
+}
+
+.table-row-l3 {
+    border-width:0;
+}
+
+tr .table-td-l2-name {
+    padding-left:42px;
+}
+
+
+tr .table-td-l3 {
+    padding-top:6px;
+    padding-bottom:6px;
+}
+
+tr .table-td-l3-name {
+    padding-left:72px;
+}
+
+tr .table-td-btn {
+    padding-bottom:4px;
+    padding-top:4px;
+}
+
+
+.table td {
+    border-style:none;
+}
+

@@ -1,0 +1,13 @@
+Salut {0} {1},
+
+Merci beaucoup d'avoir contacté! Cette réponse automatique a pour but de vous informer… 
+
+Nous avons reçu votre e-mail et vous répondrons dans les plus brefs délais. Si vous 
+si vous avez des questions générales sur le produit, veuillez visiter la page d'accueil pour les procédures pas à pas. Si tu as
+toute information supplémentaire qui, selon vous, nous aidera à vous aider, sentez-vous 
+libre de répondre à cet e-mail.
+
+Nous avons hâte de discuter bientôt! 
+
+À votre santé,
+Energy4Life équipe
