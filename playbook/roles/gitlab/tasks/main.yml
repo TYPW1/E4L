@@ -86,6 +86,35 @@
   command: gitlab-ctl reconfigure
   when: not gitlab_file.stat.exists
 
+- name: "Copy SSH setup and Git push script to the target machine"
+  template:
+    src: gitlab_ssh_setup_and_push.sh.j2
+    dest: "/tmp/gitlab_ssh_setup_and_push.sh"
+    mode: 0755
+
+- name: "Wait for GitLab to be ready"
+  uri:
+    url: "http://192.168.56.10/gitlab"
+    return_content: yes
+    status_code: 200
+  register: gitlab_response
+  until: gitlab_response is success
+  retries: 7
+  delay: 30
+
+- name: "Execute SSH setup and Git push script"
+  shell: "/tmp/gitlab_ssh_setup_and_push.sh"
+  args:
+    executable: /bin/bash
+  become: true
+  when: gitlab_response is success
+
+- name: "Remove SSH setup and Git push script"
+  file:
+    path: "/tmp/gitlab_ssh_setup_and_push.sh"
+    state: absent
+  when: gitlab_response is success
+
 - name: Restart GitLab
   command: "{{ item }}"
   with_items:
