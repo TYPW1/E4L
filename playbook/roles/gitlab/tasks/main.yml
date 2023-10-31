@@ -13,10 +13,6 @@
   apt: 
     upgrade: safe        
 
-- name: "Check if GitLab configuration file already exists."
-  stat: path=/etc/gitlab/gitlab.rb
-  register: gitlab_config_file
-
 - name: "Check if GitLab is already installed."
   stat: path=/usr/bin/gitlab-ctl
   register: gitlab_file
@@ -71,6 +67,10 @@
     regexp: '^#? gitlab_rails\[''initial_root_password''\]'
     line: "gitlab_rails['initial_root_password'] = 'Pierr01999.'"
     create: yes
+
+- name: "Reconfigure GitLab"
+  command: gitlab-ctl reconfigure
+  when: not gitlab_file.stat.exists
 
 - name: Check if user 'typw01' exists
   command: 'gitlab-rails runner "puts User.exists?(username: ''typw01'')"'
