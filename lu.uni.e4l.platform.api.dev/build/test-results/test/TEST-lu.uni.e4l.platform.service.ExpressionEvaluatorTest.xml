@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d2127c7ac321f9e186aa0cd401883d26ed6f0e22
-<testsuite name="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-10-11T18:23:50" hostname="typw-freebook" time="0.032">
+<testsuite name="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-11-07T21:08:27" hostname="typw-freebook" time="0.033">
   <properties/>
-  <testcase name="tokenize" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.016"/>
+  <testcase name="tokenize" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.02"/>
   <testcase name="toReverePolishNotation" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.007"/>
-  <testcase name="replaceVariablesWithValues" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
+  <testcase name="replaceVariablesWithValues" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.002"/>
   <testcase name="invalidNumberOfFunctionArguments" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
-  <testcase name="evaluate" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.003"/>
-  <testcase name="invalidParenthesis" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
-<<<<<<< HEAD
-=======
-<testsuite name="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-10-10T14:03:04" hostname="typw-freebook" time="0.026">
-=======
-<testsuite name="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-10-11T18:23:50" hostname="typw-freebook" time="0.032">
->>>>>>> 30d3eccdd (Succesfully launched the backend. added timezone in data base source)
-  <properties/>
-  <testcase name="tokenize" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.016"/>
-  <testcase name="toReverePolishNotation" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.007"/>
-  <testcase name="replaceVariablesWithValues" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
-  <testcase name="invalidNumberOfFunctionArguments" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
-<<<<<<< HEAD
-  <testcase name="evaluate" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.002"/>
+  <testcase name="evaluate" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
   <testcase name="invalidParenthesis" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.0"/>
->>>>>>> 6c1645bef (Restructures Folders)
-=======
-  <testcase name="evaluate" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.003"/>
-  <testcase name="invalidParenthesis" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
->>>>>>> 30d3eccdd (Succesfully launched the backend. added timezone in data base source)
-=======
->>>>>>> d2127c7ac321f9e186aa0cd401883d26ed6f0e22
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

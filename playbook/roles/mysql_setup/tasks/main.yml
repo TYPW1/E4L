@@ -81,3 +81,45 @@
       - mysql_version.stdout is search("mysql  Ver")
     fail_msg: "MySQL latest version not found"
     success_msg: "MySQL latest version is installed"
+
+- name: Check if 'typw' user exists
+  mysql_query:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    query: SELECT User FROM mysql.user WHERE User = 'typw';
+  register: typw_user
+  ignore_errors: yes
+  changed_when: false
+
+- name: Create 'typw' user with no password
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: typw
+    host: localhost
+    password: null
+    state: present
+  when: typw_user.rowcount == 0
+
+- name: Check if 'e4l' database exists
+  mysql_db:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: e4l
+    state: dump
+  register: e4l_db
+  ignore_errors: yes
+  changed_when: false
+
+- name: Create 'e4l' database if it doesn't exist
+  mysql_db:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: e4l
+    state: present
+  when: e4l_db.failed
+
+- name: Grant all privileges to 'typw' user on 'e4l' database
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: typw
+    host: localhost
+    priv: 'e4l.*:ALL'
+    state: present
+  when: e4l_db.failed
