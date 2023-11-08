@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-11-07T21:57:54" hostname="typw-freebook" time="0.031">
+<testsuite name="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-11-08T14:08:04" hostname="typw-freebook" time="0.039">
   <properties/>
-  <testcase name="tokenize" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.016"/>
-  <testcase name="toReverePolishNotation" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.007"/>
-  <testcase name="replaceVariablesWithValues" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.002"/>
+  <testcase name="tokenize" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.019"/>
+  <testcase name="toReverePolishNotation" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.008"/>
+  <testcase name="replaceVariablesWithValues" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
   <testcase name="invalidNumberOfFunctionArguments" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.002"/>
-  <testcase name="evaluate" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.002"/>
+  <testcase name="evaluate" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.003"/>
   <testcase name="invalidParenthesis" classname="lu.uni.e4l.platform.service.ExpressionEvaluatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

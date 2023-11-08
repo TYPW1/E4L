@@ -1,8 +1,5 @@
 lu/uni/e4l/platform/model/dto/ContactUs.java
  lu.uni.e4l.platform.model.dto.ContactUs
-lu/uni/e4l/platform/CorsConfig.java
- CorsConfig
- CorsConfig$1
 lu/uni/e4l/platform/controller/UserController.java
  lu.uni.e4l.platform.controller.UserController
 lu/uni/e4l/platform/model/Session.java

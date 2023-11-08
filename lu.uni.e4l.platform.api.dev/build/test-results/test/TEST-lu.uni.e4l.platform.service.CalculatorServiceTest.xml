@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="lu.uni.e4l.platform.service.CalculatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-07T21:57:54" hostname="typw-freebook" time="0.247">
+<testsuite name="lu.uni.e4l.platform.service.CalculatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-08T14:08:04" hostname="typw-freebook" time="0.27">
   <properties/>
-  <testcase name="calculate" classname="lu.uni.e4l.platform.service.CalculatorServiceTest" time="0.247"/>
+  <testcase name="calculate" classname="lu.uni.e4l.platform.service.CalculatorServiceTest" time="0.27"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
