@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<testsuite name="lu.uni.e4l.platform.service.CalculatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-11T18:23:50" hostname="typw-freebook" time="0.242">
+<testsuite name="lu.uni.e4l.platform.service.CalculatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-08T14:08:04" hostname="typw-freebook" time="0.27">
   <properties/>
-  <testcase name="calculate" classname="lu.uni.e4l.platform.service.CalculatorServiceTest" time="0.242"/>
-=======
-<testsuite name="lu.uni.e4l.platform.service.CalculatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-10T14:03:04" hostname="typw-freebook" time="0.221">
-  <properties/>
-  <testcase name="calculate" classname="lu.uni.e4l.platform.service.CalculatorServiceTest" time="0.221"/>
->>>>>>> 6c1645bef (Restructures Folders)
-=======
-<testsuite name="lu.uni.e4l.platform.service.CalculatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-11T18:23:50" hostname="typw-freebook" time="0.242">
-  <properties/>
-  <testcase name="calculate" classname="lu.uni.e4l.platform.service.CalculatorServiceTest" time="0.242"/>
->>>>>>> 30d3eccdd (Succesfully launched the backend. added timezone in data base source)
-=======
-<testsuite name="lu.uni.e4l.platform.service.CalculatorServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-11T18:23:50" hostname="typw-freebook" time="0.242">
-  <properties/>
-  <testcase name="calculate" classname="lu.uni.e4l.platform.service.CalculatorServiceTest" time="0.242"/>
->>>>>>> d2127c7ac321f9e186aa0cd401883d26ed6f0e22
+  <testcase name="calculate" classname="lu.uni.e4l.platform.service.CalculatorServiceTest" time="0.27"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

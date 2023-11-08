@@ -3,7 +3,7 @@
 
 ## Prerequisites
 
-1. MySQL version 8.0.21 (Ensure that it is running) #changes to mysql 8.0.35
+1. MySQL version 8.0.21 (Ensure that it is running)
 
 2. Java version 1.8
 
@@ -61,9 +61,6 @@ Providing the following information:
 
 - **Note:**  every time you make a change, you have to build and run the server again so that the corresponding changes are applied.
   
-
-
-
 
 ## Project funtionalities
 
