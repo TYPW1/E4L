@@ -1,0 +1,125 @@
+---
+- name: Update apt cache
+  apt:
+    update_cache: yes
+
+- name: Install MySQL Server
+  apt:
+    name: mysql-server
+    state: present
+
+- name: Start and enable MySQL service
+  service:
+    name: mysql
+    state: started
+    enabled: yes
+
+- name: Ensure pip is installed (Debian/Ubuntu)
+  apt:
+    name: python3-pip
+    state: present
+  when: ansible_os_family == 'Debian'
+
+- name: Upgrade pip for Python 3.5
+  shell: "curl https://bootstrap.pypa.io/pip/3.5/get-pip.py | python3"
+  when: ansible_python.version.major == 3 and ansible_python.version.minor == 5
+
+- name: Install PyMySQL for Python 3
+  pip:
+    name: pymysql
+    version: "0.7.4"  # This version should be compatible with Python 3.5
+  when: ansible_python.version.major == 3
+
+- name: Set MySQL root password
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: root
+    password: "{{ root }}"
+    host_all: yes
+  when: mysql_root_password is defined
+
+- name: Remove MySQL anonymous users
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: ''
+    host_all: yes
+    state: absent
+
+- name: Ensure root user can only login from localhost
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: root
+    host: '%'
+    state: absent
+
+- name: Remove the MySQL test database
+  mysql_db:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: test
+    state: absent
+
+- name: Flush privileges
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: root
+    priv: "*.*:RELOAD"
+    append_privs: yes
+
+
+- name: Check MySQL version
+  command: mysql --version
+  register: mysql_version
+  ignore_errors: yes
+
+- name: Debug MySQL version
+  debug:
+    var: mysql_version.stdout_lines
+
+- name: Assert MySQL latest version is installed
+  assert:
+    that:
+      - mysql_version.stdout is search("mysql  Ver")
+    fail_msg: "MySQL latest version not found"
+    success_msg: "MySQL latest version is installed"
+
+- name: Check if 'typw' user exists
+  mysql_query:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    query: SELECT User FROM mysql.user WHERE User = 'typw';
+  register: typw_user
+  ignore_errors: yes
+  changed_when: false
+
+- name: Create 'typw' user with no password
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: typw
+    host: localhost
+    password: null
+    state: present
+  when: typw_user.rowcount == 0
+
+- name: Check if 'e4l' database exists
+  mysql_db:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: e4l
+    state: dump
+  register: e4l_db
+  ignore_errors: yes
+  changed_when: false
+
+- name: Create 'e4l' database if it doesn't exist
+  mysql_db:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: e4l
+    state: present
+  when: e4l_db.failed
+
+- name: Grant all privileges to 'typw' user on 'e4l' database
+  mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    name: typw
+    host: localhost
+    priv: 'e4l.*:ALL'
+    state: present
+  when: e4l_db.failed
