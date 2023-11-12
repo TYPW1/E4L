@@ -77,9 +77,19 @@
   register: user_exists
   changed_when: false
 
-- name: Create user 'Peter Wilfried' with Rails console
+- name: Create user 'Peter Wilfried' with Rails console and generate token
   command: >
-    gitlab-rails runner "u = User.new(username: 'typw01', email: 'typw@typw.com', name: 'Peter Wilfried', password: 'Pierr01999.', password_confirmation: 'Pierr01999.'); u.skip_confirmation!; u.save!"
+    gitlab-rails runner "
+      u = User.new(username: 'typw01', email: 'typw@typw.com', name: 'Peter Wilfried', password: 'Pierr01999.', password_confirmation: 'Pierr01999.'); 
+      u.skip_confirmation!;
+      u.save!;
+      token = PersonalAccessToken.new;
+      token.user_id = User.find_by(username: 'typw01').id;
+      token.name = 'default';
+      token.scopes = ['api'];
+      token.set_token('ypCa3Dzb23o5nvsixwPP');
+      token.save!
+    "
   when: "'false' in user_exists.stdout"
 
 - name: "Reconfigure GitLab"
@@ -101,3 +111,29 @@
   until: gitlab_response is success
   retries: 7
   delay: 30
+
+- name: Install curl
+  apt:
+    name: curl
+    state: present
+
+- name: Check if GitLab project exists
+  uri:
+    url: "http://192.168.56.10/gitlab/api/v4/projects?search=lu.uni.e4l.platform.api.dev"
+    method: GET
+    headers:
+      PRIVATE-TOKEN: "ypCa3Dzb23o5nvsixwPP"
+    return_content: yes
+    status_code: 200
+  register: gitlab_project_check
+  changed_when: false
+
+- name: Create GitLab project
+  uri:
+    url: "http://192.168.56.10/gitlab/api/v4/projects?name=lu.uni.e4l.platform.api.dev"
+    method: POST
+    headers:
+      PRIVATE-TOKEN: "ypCa3Dzb23o5nvsixwPP"
+    status_code: 201
+    body_format: json
+  when: gitlab_project_check.content == "[]"

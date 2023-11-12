@@ -1,0 +1,28 @@
+stages:
+  - build
+  - test
+
+variables:
+  MYSQL_DATABASE: "e4l"
+  MYSQL_ROOT_PASSWORD: ""  # Set your MYSQL root password
+
+build:
+  image: gradle:6.7.1-jdk8
+  stage: build
+  script:
+    - gradle clean
+    - gradle build
+  artifacts:
+    paths:
+      - build/libs/*.jar
+    expire_in: 1 hour
+  only:
+    - master
+
+test:
+  image: gradle:6.7.1-jdk8
+  stage: test
+  script:
+    - gradle test
+  only:
+    - master

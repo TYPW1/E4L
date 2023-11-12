@@ -1,0 +1,8 @@
+# Binaries
+target/
+
+# log files
+*log
+
+# Dev settings
+.settings

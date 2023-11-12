@@ -10,7 +10,6 @@
       if ! apt-cache policy | grep -q 'gitlab-runner'; then 
         curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | sudo bash
       fi
-  args:
   changed_when: false
 
 - name: Install GitLab Runner
