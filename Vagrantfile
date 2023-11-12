@@ -47,7 +47,9 @@ Vagrant.configure("2") do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-  #config.vm.synced_folder "../../data", "/vagrant_data"
+  config.vm.synced_folder "./scripts", "/vagrant_scripts"
+  config.vm.synced_folder "./lu.uni.e4l.platform.api.dev", "/back"
+  config.vm.synced_folder "./lu.uni.e4l.platform.frontend.dev", "/front"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
