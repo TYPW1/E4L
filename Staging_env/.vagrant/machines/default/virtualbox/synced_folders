@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant_scripts":{"guestpath":"/vagrant_scripts","hostpath":"/home/typw/Downloads/Devops/Project/Staging_env/scripts","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/typw/Downloads/Devops/Project/Staging_env","disabled":false,"__vagrantfile":true}}}

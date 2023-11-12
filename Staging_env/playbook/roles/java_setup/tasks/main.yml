@@ -1,0 +1,21 @@
+---
+- name: Install Java 1.8
+  apt:
+    name: openjdk-8-jdk
+    update_cache: yes
+
+- name: Check Java version
+  command: java -version
+  register: java_version
+  ignore_errors: yes
+
+- name: Debug Java version
+  debug:
+    var: java_version.stderr_lines
+
+- name: Assert Java 1.8 is installed
+  assert:
+    that:
+      - '"1.8" in java_version.stderr'
+    fail_msg: "Java version 1.8 not found"
+    success_msg: "Java version 1.8 is installed"

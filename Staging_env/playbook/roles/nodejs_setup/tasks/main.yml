@@ -1,0 +1,43 @@
+---
+- name: Download Node.js v15.14.0
+  get_url:
+    url: "https://nodejs.org/dist/v15.14.0/node-v15.14.0-linux-x64.tar.xz"
+    dest: "/tmp/node-v15.14.0-linux-x64.tar.xz"
+    validate_certs: yes
+
+- name: Extract Node.js archive
+  ansible.builtin.unarchive:
+    src: "/tmp/node-v15.14.0-linux-x64.tar.xz"
+    dest: "/usr/local"
+    remote_src: yes
+    creates: "/usr/local/node-v15.14.0-linux-x64"
+
+- name: Set up Node.js environment
+  copy:
+    src: nodejs_profile.sh
+    dest: /etc/profile.d/
+    mode: '0755'
+
+- name: Check Node.js version
+  command: bash -lc "node --version"
+  register: node_version
+  ignore_errors: yes
+
+- name: Debug Node.js version
+  debug:
+    var: node_version.stdout_lines
+
+- name: Assert Node.js v15.14.0 is installed
+  assert:
+    that:
+      - '"v15.14.0" in node_version.stdout'
+    fail_msg: "Node.js version v15.14.0 not found"
+    success_msg: "Node.js version v15.14.0 is installed"
+
+- name: Print PATH
+  command: bash -lc "echo $PATH"
+  register: path_check
+
+- name: Debug PATH
+  debug:
+    var: path_check.stdout_lines
