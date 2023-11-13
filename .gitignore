@@ -1,0 +1,71 @@
+# System files
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# IDE and editor folders
+/.vscode/
+*.sublime-*
+*.idea/
+*.DS_Store
+
+# Node.js dependencies
+/node_modules/
+/package-lock.json
+
+# Gradle files
+.gradle/
+build/
+
+# Vagrant files
+.vagrant/
+
+# Compiled source
+*.class
+*.pyc
+
+# Distribution / packaging
+target/
+dist/
+out/
+build/
+bin/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# dotenv environment variables file
+.env
+
+# Local development
+local.properties
+.sass-cache/
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Other common files to ignore
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.log
+*.swp
+*.swo
+
+# Specific project-related files
+lu.uni.e4l.platform.api.dev/.gradle/
+lu.uni.e4l.platform.api.dev/build/
+lu.uni.e4l.platform.frontend.dev/node_modules/
