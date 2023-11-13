@@ -134,9 +134,14 @@
     method: POST
     headers:
       PRIVATE-TOKEN: "ypCa3Dzb23o5nvsixwPP"
-    status_code: 201
+    status_code: 200,201
     body_format: json
   when: gitlab_back_project_check.content == "[]"
+
+- name: Extract and store GitLab back project ID
+  set_fact:
+    gitlab_back_project_id: "{{ gitlab_back_project_creation_response.json.id }}"
+  when: gitlab_back_project_creation_response is defined and gitlab_back_project_creation_response.json is defined
 
 - name: Check if GitLab front project exists
   uri:
@@ -155,6 +160,38 @@
     method: POST
     headers:
       PRIVATE-TOKEN: "ypCa3Dzb23o5nvsixwPP"
-    status_code: 201
+    status_code: 200,201
     body_format: json
+  register: gitlab_front_project_creation_response
   when: gitlab_front_project_check.content == "[]"
+
+- name: Extract and store GitLab front project ID
+  set_fact:
+    gitlab_front_project_id: "{{ gitlab_front_project_creation_response.json.id }}"
+  when: gitlab_front_project_creation_response is defined and gitlab_front_project_creation_response.json is defined
+
+- name: Set SSH_PRIVATE_KEY variable in GitLab CI/CD
+  uri:
+    url: "http://192.168.56.10/gitlab/api/v4/projects/{{ gitlab_back_project_id }}/variables/SSH_PRIVATE_KEY"
+    method: PUT
+    body_format: json
+    headers:
+      PRIVATE-TOKEN: "ypCa3Dzb23o5nvsixwPP"
+    body:
+      value: "{{ lookup('file', '/vagrant_data/id_rsa_group4') }}"
+      variable_type: "file"
+    status_code: 200,201
+  when: gitlab_back_project_id is defined
+
+- name: Set SSH_PRIVATE_KEY variable in GitLab CI/CD
+  uri:
+    url: "http://192.168.56.10/gitlab/api/v4/projects/{{ gitlab_front_project_id }}/variables/SSH_PRIVATE_KEY"
+    method: PUT
+    body_format: json
+    headers:
+      PRIVATE-TOKEN: "ypCa3Dzb23o5nvsixwPP"
+    body:
+      value: "{{ lookup('file', '/vagrant_data/id_rsa_group4') }}"
+      variable_type: "file"
+    status_code: 200,201
+  when: gitlab_front_project_id is defined
